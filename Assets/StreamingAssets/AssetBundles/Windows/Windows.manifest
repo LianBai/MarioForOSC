@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 3716737359
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mario_prefab
+      Dependencies: {}
+    Info_1:
+      Name: characters_prefab
+      Dependencies: {}

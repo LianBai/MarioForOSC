@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 2021178692
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 21004fed7a669b05fb10c25380dadd45
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2e38e1d406cc6ad28446054f55e63da9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5797286969df084489981b02c2ff2841, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b6347e09d9d50b4a92f15541859770e, type: 3}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Mario/Prefabs/Characters/mario.prefab
+Dependencies: []
