@@ -6,27 +6,37 @@ namespace MarioForOSC
 {
     public class GameObjectManager
     {
+        Dictionary<EnumPrefabId, BaseGameObject> goDic= new Dictionary<EnumPrefabId, BaseGameObject>();
+
+        public GameObjectManager()
+        {
+            goDic.Clear();
+            AddGameobjectPrefab(EnumPrefabId.Characters, "Resources/Prefab/Characters");
+        }
+        private void AddGameobjectPrefab(EnumPrefabId id, string path)
+        {
+            EnumPrefabManager.instance.RegistPrefab(id, path);
+        }
+        public void InstanceGameObject(EnumPrefabId id)
+        {
+            GameObject go = new GameObject();
+            go = EnumPrefabManager.instance.GetPrefab(id);
+            GameObject.Instantiate(go);
+        }
+        /*public void ShowPrefab(EnumPrefabId id)
+        {
+            BaseGameObject go = new BaseGameObject();
+            goDic.TryGetValue(id, out go);
+            //go.Init();
+        }*/
+
+        /// <summary>
+        /// µ¥ÀýÄ£Ê½
+        /// </summary>
         private static GameObjectManager _instance = null;
         public static GameObjectManager instance
         {
             get { return _instance ?? (_instance = new GameObjectManager()); }
-        }
-        Dictionary<EnumPrefabId, BasePrefab> goDic= new Dictionary<EnumPrefabId, BasePrefab>();
-        public GameObjectManager()
-        {
-            goDic.Clear();
-            AddGameobjectPrefab(EnumPrefabId.Characters, Characters.instance, "Resources/Prefab/Characters");
-        }
-        private void AddGameobjectPrefab(EnumPrefabId id, BasePrefab go , string path)
-        {
-            goDic.Add(id, go);
-            EnumPrefabManager.instance.RegistPrefab(id, path);
-        }
-        public void ShowPrefab(EnumPrefabId id)
-        {
-            BasePrefab go = new BasePrefab();
-            goDic.TryGetValue(id, out go);
-            go.Init();
         }
     }
 }
