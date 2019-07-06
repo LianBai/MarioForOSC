@@ -445,6 +445,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.21",
+            "content": "支持 Unity 2019.1",
+            "author": "liangxie",
+            "date": "2019 年 07 月 03 日 10:31",
+            "VersionNumber": 21
+          },
+          {
             "version": "v0.0.20",
             "content": "* support 2018.3\n* API Doc Support",
             "author": "liangxie",
@@ -531,6 +538,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.21",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.21.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework",
+          "DocUrl": "http://qfdoc.liangxiegame.com/",
+          "Readme": {
+            "version": "v0.0.21",
+            "content": "支持 Unity 2019.1",
+            "author": "liangxie",
+            "date": "2019 年 07 月 03 日 10:31",
+            "VersionNumber": 21
+          },
+          "Id": "637",
+          "Name": "Framework",
+          "VersionNumber": 21,
+          "FileName": "Framework_v0.0.21.unitypackage"
+        },
         {
           "Version": "v0.0.20",
           "Type": 0,
@@ -779,13 +805,13 @@
           "FileName": "Framework_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.20",
-      "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.20.unitypackage",
+      "Version": "v0.0.21",
+      "DownloadUrl": "http://liangxiegame.com/media/Framework_v0.0.21.unitypackage",
       "InstallPath": "Assets/QFramework/Framework",
       "DocUrl": "http://qfdoc.liangxiegame.com/",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 20,
+      "VersionNumber": 21,
       "Installed": true
     },
     {

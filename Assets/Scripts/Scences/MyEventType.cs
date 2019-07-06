@@ -9,5 +9,6 @@ namespace MarioForOSC
         FixUpdateEvent,
         LateUpdateEvent,
         CharacterMove,
+        CharacterStop,
     }
 }
