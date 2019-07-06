@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 34
+  controlID: 10
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 11
+  controlID: 75
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,8 +180,8 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 322
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -407,9 +407,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 124.867744, y: -67.18004, z: -25.508564}
+    m_Target: {x: 98.51941, y: -64.401, z: -12.872991}
     speed: 2
-    m_Value: {x: 124.867744, y: -67.18004, z: -25.508564}
+    m_Value: {x: 98.51941, y: -64.401, z: -12.872991}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -433,17 +433,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.07999372, y: 0.8550836, z: -0.13870734, w: 0.49314648}
+    m_Target: {x: 0.24678673, y: 0.67666334, z: -0.25958818, w: 0.64330167}
     speed: 2
-    m_Value: {x: 0.07999372, y: 0.8550836, z: -0.13870734, w: 0.49314648}
+    m_Value: {x: 0.24678673, y: 0.6766634, z: -0.25958818, w: 0.64330167}
   m_Size:
-    m_Target: 174.2084
+    m_Target: 227.56186
     speed: 2
-    m_Value: 174.2084
+    m_Value: 227.56186
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: -0.110304214, y: -0.69696563, z: 0.109853216, w: -0.70000297}
   m_LastSceneViewOrtho: 0
@@ -543,7 +543,8 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders: []
+    m_Folders:
+    - Assets/Scripts/Manager
   m_ViewMode: 0
   m_StartGridSize: 16
   m_LastFolders: []
