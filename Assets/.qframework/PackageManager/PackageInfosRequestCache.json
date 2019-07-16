@@ -5,6 +5,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.5.5",
+            "content": "fix EnumProperty",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 12:02",
+            "VersionNumber": 505
+          },
+          {
             "version": "v0.5.4",
             "content": "improvements Eidtor's UI",
             "author": "liangxie",
@@ -42,6 +49,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.5.5",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.5.5.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Core/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.5.5",
+            "content": "fix EnumProperty",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 12:02",
+            "VersionNumber": 505
+          },
+          "Id": "661",
+          "Name": "0.Core",
+          "VersionNumber": 505,
+          "FileName": "0.Core_v0.5.5.unitypackage"
+        },
         {
           "Version": "v0.5.4",
           "Type": 0,
@@ -138,19 +164,47 @@
           "FileName": "0.Core_v0.5.0.unitypackage"
         }
       ],
-      "Version": "v0.5.4",
-      "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.5.4.unitypackage",
+      "Version": "v0.5.5",
+      "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.5.5.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/0.Core/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 504,
+      "VersionNumber": 505,
       "Installed": true
     },
     {
       "Name": "2.UIKit",
       "readme": {
         "items": [
+          {
+            "version": "v0.4.0",
+            "content": "fix uiPanel's close's bug",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 14:16",
+            "VersionNumber": 400
+          },
+          {
+            "version": "v0.3.9",
+            "content": "fix Bind code gen's bug",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 13:40",
+            "VersionNumber": 309
+          },
+          {
+            "version": "v0.3.8",
+            "content": "support uimark",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 12:14",
+            "VersionNumber": 308
+          },
+          {
+            "version": "v0.3.7",
+            "content": "fix uimark type can't change's bug",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 11:56",
+            "VersionNumber": 307
+          },
           {
             "version": "v0.3.6",
             "content": "multi select support",
@@ -196,6 +250,82 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.4.0",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.0.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.0",
+            "content": "fix uiPanel's close's bug",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 14:16",
+            "VersionNumber": 400
+          },
+          "Id": "664",
+          "Name": "2.UIKit",
+          "VersionNumber": 400,
+          "FileName": "2.UIKit_v0.4.0.unitypackage"
+        },
+        {
+          "Version": "v0.3.9",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.3.9.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.3.9",
+            "content": "fix Bind code gen's bug",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 13:40",
+            "VersionNumber": 309
+          },
+          "Id": "663",
+          "Name": "2.UIKit",
+          "VersionNumber": 309,
+          "FileName": "2.UIKit_v0.3.9.unitypackage"
+        },
+        {
+          "Version": "v0.3.8",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.3.8.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.3.8",
+            "content": "support uimark",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 12:14",
+            "VersionNumber": 308
+          },
+          "Id": "662",
+          "Name": "2.UIKit",
+          "VersionNumber": 308,
+          "FileName": "2.UIKit_v0.3.8.unitypackage"
+        },
+        {
+          "Version": "v0.3.7",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.3.7.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.3.7",
+            "content": "fix uimark type can't change's bug",
+            "author": "liangxie",
+            "date": "2019 年 07 月 16 日 11:56",
+            "VersionNumber": 307
+          },
+          "Id": "660",
+          "Name": "2.UIKit",
+          "VersionNumber": 307,
+          "FileName": "2.UIKit_v0.3.7.unitypackage"
+        },
         {
           "Version": "v0.3.6",
           "Type": 0,
@@ -311,13 +441,13 @@
           "FileName": "2.UIKit_v0.3.1.unitypackage"
         }
       ],
-      "Version": "v0.3.6",
-      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.3.6.unitypackage",
+      "Version": "v0.4.0",
+      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.0.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
       "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 306,
+      "VersionNumber": 400,
       "Installed": true
     },
     {

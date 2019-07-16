@@ -7,9 +7,10 @@ namespace MarioForOSC
     public class LoadGameSceneManage
     {
         private static LoadGameSceneManage _instance;
-        private void LoadGameScene()
+        public void LoadGameScene()
         {
-
+            GameObjectManager.instance.InstanceGameObject(EnumPrefabId.Characters);
+            LoadGamePickUp.instance.LoadPickUp(1);
         }
         /// <summary>
         /// »ñµÃµ¥Àý
