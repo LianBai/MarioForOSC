@@ -8,6 +8,7 @@ namespace MarioForOSC
     public enum EnumPrefabId
     {
         Characters = 1,//"Resources/Prefab/Characters",
+        PickCoinPrefab,
     }
     public class EnumPrefabManager
     {

@@ -5,6 +5,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.5.6",
+            "content": "change tool's path",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 17:59",
+            "VersionNumber": 506
+          },
+          {
             "version": "v0.5.5",
             "content": "fix EnumProperty",
             "author": "liangxie",
@@ -49,6 +56,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.5.6",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.5.6.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Core/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.5.6",
+            "content": "change tool's path",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 17:59",
+            "VersionNumber": 506
+          },
+          "Id": "668",
+          "Name": "0.Core",
+          "VersionNumber": 506,
+          "FileName": "0.Core_v0.5.6.unitypackage"
+        },
         {
           "Version": "v0.5.5",
           "Type": 0,
@@ -164,19 +190,54 @@
           "FileName": "0.Core_v0.5.0.unitypackage"
         }
       ],
-      "Version": "v0.5.5",
-      "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.5.5.unitypackage",
+      "Version": "v0.5.6",
+      "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.5.6.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/0.Core/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 505,
+      "VersionNumber": 506,
       "Installed": true
     },
     {
       "Name": "2.UIKit",
       "readme": {
         "items": [
+          {
+            "version": "v0.4.5",
+            "content": "add ngui's sprite",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 16:30",
+            "VersionNumber": 405
+          },
+          {
+            "version": "v0.4.4",
+            "content": "add hide all ui 2 UIMgr",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 18:01",
+            "VersionNumber": 404
+          },
+          {
+            "version": "v0.4.3",
+            "content": "support Text mesh",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 17:52",
+            "VersionNumber": 403
+          },
+          {
+            "version": "v0.4.2",
+            "content": "support tmpro",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 17:49",
+            "VersionNumber": 402
+          },
+          {
+            "version": "v0.4.1",
+            "content": "support text mesh pro",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 17:01",
+            "VersionNumber": 401
+          },
           {
             "version": "v0.4.0",
             "content": "fix uiPanel's close's bug",
@@ -250,6 +311,101 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.4.5",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.5.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.5",
+            "content": "add ngui's sprite",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 16:30",
+            "VersionNumber": 405
+          },
+          "Id": "670",
+          "Name": "2.UIKit",
+          "VersionNumber": 405,
+          "FileName": "2.UIKit_v0.4.5.unitypackage"
+        },
+        {
+          "Version": "v0.4.4",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.4.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.4",
+            "content": "add hide all ui 2 UIMgr",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 18:01",
+            "VersionNumber": 404
+          },
+          "Id": "669",
+          "Name": "2.UIKit",
+          "VersionNumber": 404,
+          "FileName": "2.UIKit_v0.4.4.unitypackage"
+        },
+        {
+          "Version": "v0.4.3",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.3.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.3",
+            "content": "support Text mesh",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 17:52",
+            "VersionNumber": 403
+          },
+          "Id": "667",
+          "Name": "2.UIKit",
+          "VersionNumber": 403,
+          "FileName": "2.UIKit_v0.4.3.unitypackage"
+        },
+        {
+          "Version": "v0.4.2",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.2.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.2",
+            "content": "support tmpro",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 17:49",
+            "VersionNumber": 402
+          },
+          "Id": "666",
+          "Name": "2.UIKit",
+          "VersionNumber": 402,
+          "FileName": "2.UIKit_v0.4.2.unitypackage"
+        },
+        {
+          "Version": "v0.4.1",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.1.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.1",
+            "content": "support text mesh pro",
+            "author": "liangxie",
+            "date": "2019 年 07 月 17 日 17:01",
+            "VersionNumber": 401
+          },
+          "Id": "665",
+          "Name": "2.UIKit",
+          "VersionNumber": 401,
+          "FileName": "2.UIKit_v0.4.1.unitypackage"
+        },
         {
           "Version": "v0.4.0",
           "Type": 0,
@@ -441,13 +597,13 @@
           "FileName": "2.UIKit_v0.3.1.unitypackage"
         }
       ],
-      "Version": "v0.4.0",
-      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.0.unitypackage",
+      "Version": "v0.4.5",
+      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.5.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
       "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 400,
+      "VersionNumber": 405,
       "Installed": true
     },
     {

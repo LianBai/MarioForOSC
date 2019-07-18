@@ -12,6 +12,7 @@ namespace MarioForOSC
         {
             goDic.Clear();
             AddGameobjectPrefab(EnumPrefabId.Characters, "Resources/Prefab/Characters");
+            AddGameobjectPrefab(EnumPrefabId.PickCoinPrefab, "Resources/Prefab/PickPool/PickCoinPrefab");
         }
         private void AddGameobjectPrefab(EnumPrefabId id, string path)
         {

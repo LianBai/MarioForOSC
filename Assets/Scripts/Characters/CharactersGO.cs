@@ -25,7 +25,6 @@ namespace MarioForOSC
         private void LateUpdate()
         {
             seeCameraTF.position = marioTF.position + offPos;
-            
         }
         public override void RegistEvent()
         {

@@ -19,7 +19,7 @@ namespace MarioForOSC
             pickUpList = SerializeHelper.LoadJson<List<Vector3>>(string.Format(jsonPath,id));
             foreach(var v in pickUpList)
             {
-                Debug.Log(v);
+                PickPoolManage.instance.LoadCoin(v);
             }
             //pickUpList = JSONClass.LoadFromFile("PickUp_Game_1");
             //Debug.LogError(pickUpList);
@@ -30,10 +30,6 @@ namespace MarioForOSC
 
         #region 单例模式
         private static LoadGamePickUp _instance;
-        private void LoadGameScene()
-        {
-
-        }
         /// <summary>
         /// 获得单例
         /// </summary>
