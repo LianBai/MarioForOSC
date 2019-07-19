@@ -9,6 +9,10 @@ namespace MarioForOSC
         public override void OnInit()
         {
             base.OnInit();
+        }
+        public override void OnShow()
+        {
+            base.OnShow();
             LoadGameSceneManage.instance.LoadGameScene();
         }
 

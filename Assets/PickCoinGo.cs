@@ -9,7 +9,13 @@ namespace MarioForOSC
         public override void Init()
         {
             base.Init();
-            PickPoolManage.instance.RecyCoin(gameObject);
+            //PickPoolManage.instance.RecyCoin(gameObject);
+        }
+
+        public override void OnHide()
+        {
+            base.OnHide();
+            PickPoolManage.instance.RecyCoin(transform);
         }
     }
 }

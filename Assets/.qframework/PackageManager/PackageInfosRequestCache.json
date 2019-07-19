@@ -5,6 +5,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.5.7",
+            "content": "fix property binding",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 19:31",
+            "VersionNumber": 507
+          },
+          {
             "version": "v0.5.6",
             "content": "change tool's path",
             "author": "liangxie",
@@ -56,6 +63,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.5.7",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.5.7.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.Core/",
+          "DocUrl": "http://liangxiegame.com",
+          "Readme": {
+            "version": "v0.5.7",
+            "content": "fix property binding",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 19:31",
+            "VersionNumber": 507
+          },
+          "Id": "673",
+          "Name": "0.Core",
+          "VersionNumber": 507,
+          "FileName": "0.Core_v0.5.7.unitypackage"
+        },
         {
           "Version": "v0.5.6",
           "Type": 0,
@@ -190,19 +216,40 @@
           "FileName": "0.Core_v0.5.0.unitypackage"
         }
       ],
-      "Version": "v0.5.6",
-      "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.5.6.unitypackage",
+      "Version": "v0.5.7",
+      "DownloadUrl": "http://liangxiegame.com/media/0.Core_v0.5.7.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/0.Core/",
       "DocUrl": "http://liangxiegame.com",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 506,
+      "VersionNumber": 507,
       "Installed": true
     },
     {
       "Name": "2.UIKit",
       "readme": {
         "items": [
+          {
+            "version": "v0.4.8",
+            "content": "add Genereate Code button",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 19:49",
+            "VersionNumber": 408
+          },
+          {
+            "version": "v0.4.7",
+            "content": "fix draw property's bug",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 19:30",
+            "VersionNumber": 407
+          },
+          {
+            "version": "v0.4.6",
+            "content": "fix CreateUICode compile error",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 18:59",
+            "VersionNumber": 406
+          },
           {
             "version": "v0.4.5",
             "content": "add ngui's sprite",
@@ -311,6 +358,63 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.4.8",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.8.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.8",
+            "content": "add Genereate Code button",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 19:49",
+            "VersionNumber": 408
+          },
+          "Id": "674",
+          "Name": "2.UIKit",
+          "VersionNumber": 408,
+          "FileName": "2.UIKit_v0.4.8.unitypackage"
+        },
+        {
+          "Version": "v0.4.7",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.7.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.7",
+            "content": "fix draw property's bug",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 19:30",
+            "VersionNumber": 407
+          },
+          "Id": "672",
+          "Name": "2.UIKit",
+          "VersionNumber": 407,
+          "FileName": "2.UIKit_v0.4.7.unitypackage"
+        },
+        {
+          "Version": "v0.4.6",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.6.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.6",
+            "content": "fix CreateUICode compile error",
+            "author": "liangxie",
+            "date": "2019 年 07 月 18 日 18:59",
+            "VersionNumber": 406
+          },
+          "Id": "671",
+          "Name": "2.UIKit",
+          "VersionNumber": 406,
+          "FileName": "2.UIKit_v0.4.6.unitypackage"
+        },
         {
           "Version": "v0.4.5",
           "Type": 0,
@@ -597,13 +701,13 @@
           "FileName": "2.UIKit_v0.3.1.unitypackage"
         }
       ],
-      "Version": "v0.4.5",
-      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.5.unitypackage",
+      "Version": "v0.4.8",
+      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.8.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
       "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 405,
+      "VersionNumber": 408,
       "Installed": true
     },
     {

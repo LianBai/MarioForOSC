@@ -8,22 +8,33 @@ namespace MarioForOSC
 {
     public class LoadGamePickUp
     {
+        public int isLoadCound = 0;
         private string jsonPath = Application.dataPath + "/Resources/JsonFile/PickUp_Game_{0}.json";
         private List<Vector3> pickUpList = new List<Vector3>();
-        public void LoadPickUp(int id)
+        public void InitPickUp(int id)
         {
-            //string path = "Assets/TestJosn"; path += "/MyTest.json";
-            //SerializeHelper.SaveJson(pickUpList,path);
-            //Debug.LogError("±£´æ³É¹¦");
-
-            pickUpList = SerializeHelper.LoadJson<List<Vector3>>(string.Format(jsonPath,id));
-            foreach(var v in pickUpList)
+            PickPoolManage.instance.InitCoin();
+            isLoadCound = 0;
+            pickUpList = SerializeHelper.LoadJson<List<Vector3>>(string.Format(jsonPath, id));
+            for(; isLoadCound < pickUpList.Count; isLoadCound++)
             {
-                PickPoolManage.instance.LoadCoin(v);
+                PickPoolManage.instance.LoadCoin(pickUpList[isLoadCound]);
+                if (isLoadCound == 50)
+                {
+                    isLoadCound++;
+                    return;
+                }
+                    
             }
-            //pickUpList = JSONClass.LoadFromFile("PickUp_Game_1");
-            //Debug.LogError(pickUpList);
-
+        }
+        public void LoadPickUp(int count)
+        {
+            while(isLoadCound < pickUpList.Count && count >0)
+            {
+                PickPoolManage.instance.LoadCoin(pickUpList[isLoadCound]);
+                isLoadCound++;
+                count--;
+            }
         }
 
 

@@ -5,25 +5,43 @@ using QFramework;
 
 namespace MarioForOSC
 {
-    public class PickPoolManage : BaseGameObject
+    public class PickPoolManage
     {
-        static SimpleObjectPool<GameObject> coinPool;
-        public PickPoolManage()
+        private GameObject coinPoolGo;
+        private Queue<Transform> coinPool = new Queue<Transform>();
+        public void InitCoin()
         {
-            coinPool = new SimpleObjectPool<GameObject>(factoryMethod: () => EnumPrefabManager.instance.GetPrefab(EnumPrefabId.PickCoinPrefab), initCount: 50);
-            //GameObject go = coinPool.Allocate();
+            coinPoolGo = GameObject.Find("PickCoinPool");
+            foreach(Transform child in coinPoolGo.transform)
+            {
+                coinPool.Enqueue(child);
+            }
         }
         public void LoadCoin(Vector3 v)
         {
-            GameObject go = coinPool.Allocate();
-            GameObject.Instantiate(go);
-            go.transform.localPosition = v;
-            //go.transform.parent = transform;
+            if (coinPool.Count > 0)
+            {
+                Transform t = coinPool.Dequeue();
+                t.gameObject.SetActive(true);
+                t.transform.localPosition = v;
+            }
+            else
+            {
+                GameObject go = new GameObject();
+                go = EnumPrefabManager.instance.GetPrefab(EnumPrefabId.PickCoinPrefab);
+                go = GameObject.Instantiate(go);
+                go.transform.parent = coinPoolGo.transform;
+                go.transform.localPosition = v;
+                go.SetActive(true);
+            }
         }
-        public void RecyCoin(GameObject go)
+        public void RecyCoin(Transform t)
         {
-            coinPool.Recycle(go);
+            coinPool.Enqueue(t);
+            if (coinPool.Count > 10)
+                LoadGamePickUp.instance.LoadPickUp(10);
         }
+
         #region µ¥ÀýÄ£Ê½
         private static PickPoolManage _instance;
         /// <summary>
