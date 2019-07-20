@@ -59,6 +59,10 @@ namespace MarioForOSC
             {
                 other.gameObject.SetActive(false);
             }
+            if(other.tag == "Obstacle")
+            {
+                Debug.LogError("Your Death");
+            }
         }
     }
 }

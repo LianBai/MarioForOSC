@@ -230,6 +230,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.4.9",
+            "content": "support ngui's UISlider",
+            "author": "liangxie",
+            "date": "2019 年 07 月 19 日 19:27",
+            "VersionNumber": 409
+          },
+          {
             "version": "v0.4.8",
             "content": "add Genereate Code button",
             "author": "liangxie",
@@ -358,6 +365,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.4.9",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.9.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
+          "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
+          "Readme": {
+            "version": "v0.4.9",
+            "content": "support ngui's UISlider",
+            "author": "liangxie",
+            "date": "2019 年 07 月 19 日 19:27",
+            "VersionNumber": 409
+          },
+          "Id": "675",
+          "Name": "2.UIKit",
+          "VersionNumber": 409,
+          "FileName": "2.UIKit_v0.4.9.unitypackage"
+        },
         {
           "Version": "v0.4.8",
           "Type": 0,
@@ -701,13 +727,13 @@
           "FileName": "2.UIKit_v0.3.1.unitypackage"
         }
       ],
-      "Version": "v0.4.8",
-      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.8.unitypackage",
+      "Version": "v0.4.9",
+      "DownloadUrl": "http://liangxiegame.com/media/2.UIKit_v0.4.9.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/2.UIKit/",
       "DocUrl": "https://mp.weixin.qq.com/s/JZY-Z6lMpZpLS4Il04S7pw",
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 408,
+      "VersionNumber": 409,
       "Installed": true
     },
     {
