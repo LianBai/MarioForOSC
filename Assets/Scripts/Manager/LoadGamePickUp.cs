@@ -9,13 +9,12 @@ namespace MarioForOSC
     public class LoadGamePickUp
     {
         public int isLoadCound = 0;
-        private string jsonPath = Application.dataPath + "/Resources/JsonFile/PickUp_Game_{0}.json";
         private List<Vector3> pickUpList = new List<Vector3>();
         public void InitPickUp(int id)
         {
             PickPoolManage.instance.InitCoin();
             isLoadCound = 0;
-            pickUpList = SerializeHelper.LoadJson<List<Vector3>>(string.Format(jsonPath, id));
+            pickUpList = JsonManage.instance.LoadJson<Vector3>("PickUp_Game_"+id.ToString());
             for(; isLoadCound < pickUpList.Count; isLoadCound++)
             {
                 PickPoolManage.instance.LoadCoin(pickUpList[isLoadCound]);

@@ -11,12 +11,9 @@ namespace MarioForOSC
         public List<T> LoadJson<T>(string jsonName)
         {
             List<T> list = new List<T>();
-            list = SerializeHelper.LoadJson<List<T>>(jsonPath + jsonName);
+            list = SerializeHelper.LoadJson<List<T>>(jsonPath + jsonName + ".json");
             return list;
         }
-
-
-
 
         #region µ¥ÀýÄ£Ê½
         private static JsonManage _instance;

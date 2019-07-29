@@ -6,8 +6,8 @@ namespace MarioForOSC
 {
     public class PlayerData
     {
-        public int playerId;
-        public string playerIcoName;
-        public string playerPrefabName; 
+        public int playerid;
+        public string playericoname;
+        public string playerprefabname; 
     }
 }
