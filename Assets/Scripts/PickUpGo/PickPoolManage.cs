@@ -30,6 +30,7 @@ namespace MarioForOSC
                 GameObject go = new GameObject();
                 go = EnumPrefabManager.instance.GetPrefab(EnumPrefabId.PickCoinPrefab);
                 go = GameObject.Instantiate(go);
+
                 go.transform.parent = coinPoolGo.transform;
                 go.transform.localPosition = v;
                 go.SetActive(true);
