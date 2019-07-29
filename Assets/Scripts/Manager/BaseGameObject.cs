@@ -70,5 +70,12 @@ namespace MarioForOSC
             }
             return t;
         }
+        public void CreatGoAndSetPanet(GameObject go ,Transform paren)
+        {
+            GameObject newgo = GameObject.Instantiate(go);
+            newgo.transform.parent = paren;
+            newgo.SetActive(true);
+            newgo.transform.localScale = Vector3.one;
+        }
     }
 }

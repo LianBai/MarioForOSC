@@ -9,20 +9,27 @@ namespace MarioForOSC
 {
     public class SelectPlayerPanel : BaseGameObject, IPointerExitHandler,IPointerEnterHandler
     {
+        private float slideTime = 0.5f;
         private Image selectPanel;
+        private Transform playerItemPanent;
+        private GameObject playerItem;
+        private List<PlayerData> playItemData;
         public override void Init()
         {
             base.Init();
             selectPanel = GetGameObjectByPath<Image>("bg");
+
+            playerItem = GetGameObjectByPath("bg/Scroll View/Viewport/Content/playerIcon");
+            playerItemPanent = GetGameObjectByPath<Transform>("bg/Scroll View/Viewport/Content");
         }
         public void OnPointerEnter(PointerEventData eventData)
         {
-            selectPanel.rectTransform.DOLocalMoveX(0, 1f);
+            selectPanel.rectTransform.DOLocalMoveX(0, slideTime);
         }
 
         public void OnPointerExit(PointerEventData eventData)
         {
-            selectPanel.rectTransform.DOLocalMoveX(400, 1f);
+            selectPanel.rectTransform.DOLocalMoveX(-400, slideTime);
         }
 
     }
