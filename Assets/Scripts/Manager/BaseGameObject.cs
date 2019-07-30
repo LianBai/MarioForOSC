@@ -9,7 +9,6 @@ namespace MarioForOSC
         //初始化是数据
         public virtual void Init()
         {
-
         }
         public virtual void RegistEvent()
         {
