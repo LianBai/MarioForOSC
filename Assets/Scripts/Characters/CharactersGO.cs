@@ -16,8 +16,8 @@ namespace MarioForOSC
         {
             base.Init();
             seeCameraTF = GetGameObjectByPath<Transform>("../seeCamera");
-            marioTF = GetGameObjectByPath<Transform>("../mario");
-            moveAnim = GetGameObjectByPath<Animator>("../mario");
+            marioTF = transform;
+            moveAnim = GetComponent<Animator>();
 
             transform.localPosition = Vector3.zero;
             offPos = seeCameraTF.position - marioTF.position;
