@@ -2,26 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using QFramework.Json;
+using QFramework;
 
 namespace MarioForOSC
 {
     public class LoadGamePickUp
     {
-        private JSONNode pickUpList;
-        public void LoadPickUp()
+        public int isLoadCound = 0;
+        private List<Vector3> pickUpList = new List<Vector3>();
+        public void InitPickUp(int id)
         {
-            pickUpList = JSONClass.LoadFromFile("PickUp_Game_1");
-            Debug.LogError(pickUpList);
+            PickPoolManage.instance.InitCoin();
+            isLoadCound = 0;
+            pickUpList = JsonManage.instance.LoadJson<Vector3>("PickUp_Game_"+id.ToString());
+            for(; isLoadCound < pickUpList.Count; isLoadCound++)
+            {
+                PickPoolManage.instance.LoadCoin(pickUpList[isLoadCound]);
+                if (isLoadCound == 50)
+                {
+                    isLoadCound++;
+                    return;
+                }
+                    
+            }
+        }
+        public void LoadPickUp(int count)
+        {
+            while(isLoadCound < pickUpList.Count && count >0)
+            {
+                PickPoolManage.instance.LoadCoin(pickUpList[isLoadCound]);
+                isLoadCound++;
+                count--;
+            }
         }
 
 
 
         #region 单例模式
         private static LoadGamePickUp _instance;
-        private void LoadGameScene()
-        {
-
-        }
         /// <summary>
         /// 获得单例
         /// </summary>

@@ -1,0 +1,7 @@
+(Scale) [Rotation] <Transform>
+----------------------------------------------------------------------------------------------------
+CAPPY PLACEMENT (Relative to local position of "Cap" bone, or "JointRoot" for Cap-Throw models):
+
+Builder Helmet: (1, 1, 1) [-35, 0, 0] <0, 6, 30.5>
+Builder Helmet (Cap Throw): (1.5, 1.5, 1.5) [-22, 0, 0] <0, -5, 44.5>
+----------------------------------------------------------------------------------------------------

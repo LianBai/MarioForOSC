@@ -15,9 +15,9 @@ namespace MarioForOSC
         public override void Init()
         {
             base.Init();
-            seeCameraTF = GetGameObjectByPath<Transform>("seeCamera");
-            marioTF = GetGameObjectByPath<Transform>("mario");
-            moveAnim = GetGameObjectByPath<Animator>("mario");
+            seeCameraTF = GetGameObjectByPath<Transform>("../seeCamera");
+            marioTF = transform;
+            moveAnim = GetComponent<Animator>();
 
             transform.localPosition = Vector3.zero;
             offPos = seeCameraTF.position - marioTF.position;
@@ -25,7 +25,7 @@ namespace MarioForOSC
         private void LateUpdate()
         {
             seeCameraTF.position = marioTF.position + offPos;
-            
+            transform.position = marioTF.position;
         }
         public override void RegistEvent()
         {
@@ -48,6 +48,21 @@ namespace MarioForOSC
         {
             QEventSystem.UnRegisterEvent(MyEventType.CharacterMove, OnMove);
             base.RemoveEvent();
+        }
+        /// <summary>
+        /// Åö×²¼ì²â
+        /// </summary>
+        /// <param name="other"></param>
+        private void OnTriggerStay(Collider other)
+        {
+            if (other.tag == "PickCoin")
+            {
+                other.gameObject.SetActive(false);
+            }
+            if(other.tag == "Obstacle")
+            {
+                Debug.LogError("Your Death");
+            }
         }
     }
 }

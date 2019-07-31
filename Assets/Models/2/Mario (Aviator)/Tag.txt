@@ -1,0 +1,6 @@
+Game: Super Mario Odyssey
+Subject: Mario (Aviator)
+Copyright: Nintendo
+Model Rippers: Random Talking Bush and SciresM
+Hosting Permissions: The Models Resource
+Notes: The glass material doesn't have a proper texture and relies on material effects.

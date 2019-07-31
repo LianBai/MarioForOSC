@@ -12,31 +12,31 @@ namespace MarioForOSC
         {
             goDic.Clear();
             AddGameobjectPrefab(EnumPrefabId.Characters, "Resources/Prefab/Characters");
+            AddGameobjectPrefab(EnumPrefabId.PickCoinPrefab, "Resources/Prefab/PickPool/PickCoinPrefab");
         }
         private void AddGameobjectPrefab(EnumPrefabId id, string path)
         {
             EnumPrefabManager.instance.RegistPrefab(id, path);
         }
-        public void InstanceGameObject(EnumPrefabId id)
+        public GameObject InstanceGameObject(EnumPrefabId id)
         {
-            GameObject go = new GameObject();
+            GameObject go;
             go = EnumPrefabManager.instance.GetPrefab(id);
-            GameObject.Instantiate(go);
+            return GameObject.Instantiate(go);
         }
-        /*public void ShowPrefab(EnumPrefabId id)
+        public GameObject InstanceGameObjectByPath(string path)
         {
-            BaseGameObject go = new BaseGameObject();
-            goDic.TryGetValue(id, out go);
-            //go.Init();
-        }*/
+            GameObject go;
+            go = EnumPrefabManager.instance.GetPrefabByPath(path);
+            return GameObject.Instantiate(go);
+        }
 
-        /// <summary>
-        /// 单例模式
-        /// </summary>
+        #region 单例模式
         private static GameObjectManager _instance = null;
         public static GameObjectManager instance
         {
             get { return _instance ?? (_instance = new GameObjectManager()); }
         }
+        #endregion
     }
 }

@@ -11,7 +11,10 @@ namespace MarioForOSC
         {
             OnInit();
         }
-
+        private void Start()
+        {
+            OnShow();
+        }
         // Update is called once per frame
         void Update()
         {
@@ -20,6 +23,10 @@ namespace MarioForOSC
         public virtual void OnInit()
         {
             
+        }
+        public virtual void OnShow()
+        {
+
         }
         public void ReshUpdate()
         {

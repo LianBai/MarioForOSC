@@ -8,6 +8,7 @@ namespace MarioForOSC
     public enum EnumPrefabId
     {
         Characters = 1,//"Resources/Prefab/Characters",
+        PickCoinPrefab,
     }
     public class EnumPrefabManager
     {
@@ -33,6 +34,10 @@ namespace MarioForOSC
         {
             string path;
             PrefabPath.TryGetValue(id, out path);
+            return loader.LoadSync<GameObject>(path);
+        }
+        public GameObject GetPrefabByPath(string path)
+        {
             return loader.LoadSync<GameObject>(path);
         }
         /// <summary>

@@ -1,0 +1,22 @@
+[
+  {
+    "playerid": 2,
+    "playericoname": "PlayerIcon_2",
+    "playerprefabname": "Player_2"
+  },
+  {
+    "playerid": 3,
+    "playericoname": "PlayerIcon_3",
+    "playerprefabname": "Player_3"
+  },
+  {
+    "playerid": 4,
+    "playericoname": "PlayerIcon_4",
+    "playerprefabname": "Player_4"
+  },
+  {
+    "playerid": 5,
+    "playericoname": "PlayerIcon_5",
+    "playerprefabname": "Player_5"
+  }
+]
