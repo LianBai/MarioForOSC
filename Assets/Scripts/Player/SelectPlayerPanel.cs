@@ -38,6 +38,10 @@ namespace MarioForOSC
 
             LoadPlayerItem();
         }
+        public override void RegistEvent()
+        {
+            base.RegistEvent();
+        }
         public void SetSelectPlayerId(int id)
         {
             isSelectId = id;

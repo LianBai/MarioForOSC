@@ -27,7 +27,7 @@ namespace MarioForOSC
             }
             else
             {
-                GameObject go = new GameObject();
+                GameObject go;
                 go = EnumPrefabManager.instance.GetPrefab(EnumPrefabId.PickCoinPrefab);
                 go = GameObject.Instantiate(go);
 

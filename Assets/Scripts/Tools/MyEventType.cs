@@ -5,10 +5,9 @@ namespace MarioForOSC
 {
     public enum MyEventType
     {
-        OnUpdateEvent,
-        FixUpdateEvent,
-        LateUpdateEvent,
         CharacterMove,
         CharacterStop,
+
+        ChangePlayer,
     }
 }

@@ -36,6 +36,10 @@ namespace MarioForOSC
             PrefabPath.TryGetValue(id, out path);
             return loader.LoadSync<GameObject>(path);
         }
+        public GameObject GetPrefabByPath(string path)
+        {
+            return loader.LoadSync<GameObject>(path);
+        }
         /// <summary>
         /// »ñµÃµ¥Àý
         /// </summary>

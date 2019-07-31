@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using QFramework;
 
 namespace MarioForOSC
 {
@@ -35,6 +36,7 @@ namespace MarioForOSC
             {
                 SelectPlayerPanel.instance.SetSelectPlayerId(data.playerid);
                 UITool.instance.ChangeImage(bg, iconPath + "PlayerIcon_select");
+                QEventSystem.SendEvent(MyEventType.ChangePlayer, data);
             }
             else
             {
