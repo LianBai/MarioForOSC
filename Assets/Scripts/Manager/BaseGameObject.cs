@@ -10,6 +10,10 @@ namespace MarioForOSC
         public virtual void Init()
         {
         }
+        public virtual void LateInit()
+        {
+
+        }
         public virtual void RegistEvent()
         {
 
@@ -30,6 +34,10 @@ namespace MarioForOSC
         {
             Init();
             RegistEvent();
+        }
+        private void Start()
+        {
+            LateInit();
         }
         private void OnEnable()
         {

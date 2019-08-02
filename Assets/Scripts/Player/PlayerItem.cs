@@ -51,6 +51,7 @@ namespace MarioForOSC
             if (SelectPlayerPanel.instance.isSelectId == db.playerid)
             {
                 playerToggle.isOn = true;
+                QEventSystem.SendEvent(MyEventType.ChangePlayer, db);
             }
         }
     }

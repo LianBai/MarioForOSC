@@ -29,7 +29,10 @@ namespace MarioForOSC
             playerItem = GetGameObjectByPath("bg/Scroll View/Viewport/Content/playerIcon");
             playerItemPanent = GetGameObjectByPath<Transform>("bg/Scroll View/Viewport/Content");
             playItemData = JsonManage.instance.LoadJson<PlayerData>("PlayerItem");
-
+        }
+        public override void LateInit()
+        {
+            base.LateInit();
             if (!UnityEngine.PlayerPrefs.HasKey(CacheData.playerId))
             {
                 UnityEngine.PlayerPrefs.SetInt(CacheData.playerId, 2);
