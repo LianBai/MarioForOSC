@@ -15,7 +15,7 @@ namespace MarioForOSC
         private Image selectPanel;
         private Transform playerItemPanent;
         private GameObject playerItem;
-        private List<PlayerData> playItemData;
+        private List<PlayerData> playItemData = new List<PlayerData>();
         public int isSelectId { get; private set; }
         #endregion
 
@@ -28,22 +28,18 @@ namespace MarioForOSC
 
             playerItem = GetGameObjectByPath("bg/Scroll View/Viewport/Content/playerIcon");
             playerItemPanent = GetGameObjectByPath<Transform>("bg/Scroll View/Viewport/Content");
-            playItemData = JsonManage.instance.LoadJson<PlayerData>("playeritem");
+            playItemData = JsonManage.instance.LoadJson<PlayerData>(JsonFilesPath.PlayerItem);
         }
         public override void LateInit()
         {
             base.LateInit();
-            if (!UnityEngine.PlayerPrefs.HasKey(CacheData.playerId))
+            if (!PlayerPrefs.HasKey(CacheData.playerId))
             {
-                UnityEngine.PlayerPrefs.SetInt(CacheData.playerId, 2);
+                PlayerPrefs.SetInt(CacheData.playerId, 2);
             }
-            isSelectId = UnityEngine.PlayerPrefs.GetInt(CacheData.playerId);
+            isSelectId = PlayerPrefs.GetInt(CacheData.playerId);
 
             LoadPlayerItem();
-        }
-        public override void RegistEvent()
-        {
-            base.RegistEvent();
         }
         public void SetSelectPlayerId(int id)
         {

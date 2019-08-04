@@ -7,5 +7,6 @@ namespace MarioForOSC
     public class CacheData
     {
         public const string playerId = "playerId";
+        public const string passLevel = "passlevel";
     }
 }

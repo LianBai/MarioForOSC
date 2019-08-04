@@ -28,21 +28,29 @@ namespace MarioForOSC
         }
         private void OnBtnClock(bool isOn)
         {
-            if (isOn)
-            {
-                //SelectPlayerPanel.instance.SetSelectPlayerId(data.playerid);
-                UITool.instance.ChangeImage(bg, itemPath + "PlayerIcon_select");
-                QEventSystem.SendEvent(MyEventType.ChangePlayer, data);
-            }
-            else
-            {
-                UITool.instance.ChangeImage(bg, itemPath + "PlayerIcon_bg");
-            }
+            //if (isOn)
+            //{
+            //    //SelectPlayerPanel.instance.SetSelectPlayerId(data.playerid);
+            //    UITool.instance.ChangeImage(bg, itemPath + "PlayerIcon_lock");
+            //    QEventSystem.SendEvent(MyEventType.ChangePlayer, data);
+            //}
+            //else
+            //{
+            //    UITool.instance.ChangeImage(bg, itemPath + "PlayerIcon_bg");
+            //}
         }
         public void InitLevelData(LevelData db)
         {
             this.data = db;
             this.level.text = db.level;
+            if(int.Parse(db.level)<=SelectLevelPanel.instance.passLevel)
+            {
+                UITool.instance.ChangeImage(bg, itemPath + "PlayerIcon_select");
+            }
+            else
+            {
+                UITool.instance.ChangeImage(bg, itemPath + "PlayerIcon_lock");
+            }
         }
     }
 }
