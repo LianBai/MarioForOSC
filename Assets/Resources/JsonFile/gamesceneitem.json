@@ -1,0 +1,102 @@
+[
+  {
+    "itemid": 1,
+    "level": 1,
+    "scenename": "GameScene_1"
+  },
+  {
+    "itemid": 2,
+    "level": 2,
+    "scenename": "GameScene_2"
+  },
+  {
+    "itemid": 3,
+    "level": 3,
+    "scenename": "GameScene_3"
+  },
+  {
+    "itemid": 4,
+    "level": 4,
+    "scenename": "GameScene_4"
+  },
+  {
+    "itemid": 5,
+    "level": 5,
+    "scenename": "GameScene_5"
+  },
+  {
+    "itemid": 6,
+    "level": 6,
+    "scenename": "GameScene_6"
+  },
+  {
+    "itemid": 7,
+    "level": 7,
+    "scenename": "GameScene_7"
+  },
+  {
+    "itemid": 8,
+    "level": 8,
+    "scenename": "GameScene_8"
+  },
+  {
+    "itemid": 9,
+    "level": 9,
+    "scenename": "GameScene_9"
+  },
+  {
+    "itemid": 10,
+    "level": 10,
+    "scenename": "GameScene_10"
+  },
+  {
+    "itemid": 11,
+    "level": 11,
+    "scenename": "GameScene_11"
+  },
+  {
+    "itemid": 12,
+    "level": 12,
+    "scenename": "GameScene_12"
+  },
+  {
+    "itemid": 13,
+    "level": 13,
+    "scenename": "GameScene_13"
+  },
+  {
+    "itemid": 14,
+    "level": 14,
+    "scenename": "GameScene_14"
+  },
+  {
+    "itemid": 15,
+    "level": 15,
+    "scenename": "GameScene_15"
+  },
+  {
+    "itemid": 16,
+    "level": 16,
+    "scenename": "GameScene_16"
+  },
+  {
+    "itemid": 17,
+    "level": 17,
+    "scenename": "GameScene_17"
+  },
+  {
+    "itemid": 18,
+    "level": 18,
+    "scenename": "GameScene_18"
+  },
+  {
+    "itemid": 19,
+    "level": 19,
+    "scenename": "GameScene_19"
+  },
+  {
+    "itemid": 20,
+    "level": 20,
+    "scenename": "GameScene_20"
+  }
+]

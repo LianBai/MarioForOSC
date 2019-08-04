@@ -14,7 +14,7 @@ namespace MarioForOSC
         {
             PickPoolManage.instance.InitCoin();
             isLoadCound = 0;
-            pickUpList = JsonManage.instance.LoadJson<Vector3>("PickUp_Game_"+id.ToString());
+            pickUpList = JsonManage.instance.LoadJson<Vector3>("pickup_game_"+id.ToString());
             for(; isLoadCound < pickUpList.Count; isLoadCound++)
             {
                 PickPoolManage.instance.LoadCoin(pickUpList[isLoadCound]);

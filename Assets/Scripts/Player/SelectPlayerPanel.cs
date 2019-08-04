@@ -28,7 +28,7 @@ namespace MarioForOSC
 
             playerItem = GetGameObjectByPath("bg/Scroll View/Viewport/Content/playerIcon");
             playerItemPanent = GetGameObjectByPath<Transform>("bg/Scroll View/Viewport/Content");
-            playItemData = JsonManage.instance.LoadJson<PlayerData>("PlayerItem");
+            playItemData = JsonManage.instance.LoadJson<PlayerData>("playeritem");
         }
         public override void LateInit()
         {
