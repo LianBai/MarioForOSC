@@ -22,7 +22,6 @@ namespace MarioForOSC
             playerToggle = GetComponent<Toggle>();
             iconPath = "UI/PlayerIcon/";
 
-            RegistEvent();
         }
         public override void RegistEvent()
         {
