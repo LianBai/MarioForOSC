@@ -1,0 +1,8 @@
+{
+    "name": "QF.IOC",
+    "references": [
+        "UniRx"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

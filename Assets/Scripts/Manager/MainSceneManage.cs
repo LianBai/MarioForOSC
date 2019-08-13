@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using QFramework;
 using System;
+using QF.Extensions;
 
 namespace MarioForOSC
 {

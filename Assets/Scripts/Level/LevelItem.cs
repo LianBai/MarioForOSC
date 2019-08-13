@@ -45,12 +45,19 @@ namespace MarioForOSC
             this.level.text = db.level;
             if(int.Parse(db.level)<=SelectLevelPanel.instance.passLevel)
             {
+                SetRayTar(true);
                 UITool.instance.ChangeImage(bg, itemPath + "PlayerIcon_select");
             }
             else
             {
+                SetRayTar(false);
                 UITool.instance.ChangeImage(bg, itemPath + "PlayerIcon_lock");
             }
+        }
+        public void SetRayTar(bool b)
+        {
+            bg.raycastTarget = b;
+            level.raycastTarget = b;
         }
     }
 }
