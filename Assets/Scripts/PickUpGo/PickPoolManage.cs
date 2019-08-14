@@ -28,7 +28,7 @@ namespace MarioForOSC
             else
             {
                 GameObject go;
-                go = EnumPrefabManager.instance.GetPrefab(EnumPrefabId.PickCoinPrefab);
+                go = LoadPrefabManage.instance.LoadPrefab<GameObject>("PickCoinPrefab");
                 go = GameObject.Instantiate(go);
 
                 go.transform.parent = coinPoolGo.transform;

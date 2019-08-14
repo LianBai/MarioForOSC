@@ -41,7 +41,7 @@ namespace MarioForOSC
             {
                 GameObject go;
                 go = GameObjectManager.instance.
-                    InstanceGameObjectByPath("Resources/Prefab/Player/" + data.playerprefabname);
+                    InstanceGameObject(data.playerprefabname);
                 go.name = data.playerprefabname;
                 go.transform.parent = selectplayer;
                 go.transform.LocalPosition(Vector3.one);

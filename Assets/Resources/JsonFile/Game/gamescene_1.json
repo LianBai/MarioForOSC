@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "name": "ground _start"
+    "name": "ground_start"
   },
   {
     "id": 2,
-    "name": "ground _1"
+    "name": "ground_1"
   },
   {
     "id": 3,
-    "name": "ground _2"
+    "name": "ground_2"
   },
   {
     "id": 4,
-    "name": "ground _end"
+    "name": "ground_end"
   }
 ]
