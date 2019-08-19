@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using QFramework;
 using System;
+using QF.Extensions;
 
 namespace MarioForOSC
 {
     public class MainSceneManage : BaseGameObject
     {
-        private Transform selectplayer;
-        private GameObject isSelectGo;
+        private Transform _selectplayer;
+        private GameObject _isSelectGo;
         public override void Init()
         {
             base.Init();
-            selectplayer = GetGameObjectByPath<Transform>("selectplayer");
+            _selectplayer = GetGameObjectByPath<Transform>("selectplayer");
         }
         public override void RegistEvent()
         {
@@ -27,25 +28,25 @@ namespace MarioForOSC
         }
         private void OnChangePlayer(int key, object[] param)
         {
-            PlayerData data = (PlayerData)param[0];
-            Transform isgo = selectplayer.Find(data.playerprefabname);
-            if (isSelectGo != null)
-                isSelectGo.SetActive(false);
+            var data = (PlayerData)param[0];
+            var isgo = _selectplayer.Find(data.playerprefabname);
+            if (_isSelectGo != null)
+                _isSelectGo.SetActive(false);
             if (isgo != null) 
             {
-                isSelectGo = isgo.gameObject;
-                isSelectGo.SetActive(true);
+                _isSelectGo = isgo.gameObject;
+                _isSelectGo.SetActive(true);
             }
             else
             {
                 GameObject go;
                 go = GameObjectManager.instance.
-                    InstanceGameObjectByPath("Resources/Prefab/Player/" + data.playerprefabname);
+                    InstanceGameObject(data.playerprefabname);
                 go.name = data.playerprefabname;
-                go.transform.parent = selectplayer;
+                go.transform.parent = _selectplayer;
                 go.transform.LocalPosition(Vector3.one);
                 go.transform.localEulerAngles = Vector3.one;
-                isSelectGo = go;
+                _isSelectGo = go;
             }
         }
     }

@@ -1,8 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using QFramework.Json;
-using QFramework;
 
 namespace MarioForOSC
 {
@@ -14,7 +11,7 @@ namespace MarioForOSC
         {
             PickPoolManage.instance.InitCoin();
             isLoadCound = 0;
-            pickUpList = JsonManage.instance.LoadJson<Vector3>(JsonFilesPath.Game_PickUp+id.ToString());
+            pickUpList = JsonManage.instance.LoadJson<Vector3>(JsonFilesPath.GamePickUp+id.ToString());
             for(; isLoadCound < pickUpList.Count; isLoadCound++)
             {
                 PickPoolManage.instance.LoadCoin(pickUpList[isLoadCound]);

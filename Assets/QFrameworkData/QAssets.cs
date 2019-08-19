@@ -11,11 +11,6 @@
 namespace QAssetBundle
 {
     
-    public class Characters_prefab
-    {
-        public const string BundleName = "characters_prefab";
-        public const string CHARACTERS = "characters";
-    }
     public class Mario_prefab
     {
         public const string BundleName = "mario_prefab";

@@ -33,12 +33,14 @@ namespace MarioForOSC
         {
             if(isOn)
             {
+                SetRayTar(false);
                 SelectPlayerPanel.instance.SetSelectPlayerId(data.playerid);
                 UITool.instance.ChangeImage(bg, iconPath + "PlayerIcon_select");
                 QEventSystem.SendEvent(MyEventType.ChangePlayer, data);
             }
             else
             {
+                SetRayTar(true);
                 UITool.instance.ChangeImage(bg, iconPath + "PlayerIcon_bg");
             }
         }
@@ -52,6 +54,11 @@ namespace MarioForOSC
                 playerToggle.isOn = true;
                 QEventSystem.SendEvent(MyEventType.ChangePlayer, db);
             }
+        }
+        public void SetRayTar(bool b)
+        {
+            bg.raycastTarget = b;
+            icon.raycastTarget = b;
         }
     }
 }

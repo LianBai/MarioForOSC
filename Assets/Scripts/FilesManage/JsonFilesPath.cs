@@ -12,7 +12,8 @@ namespace MarioForOSC
         #endregion
 
         #region GameJosnPath
-        public const string Game_PickUp = "Game/pickup_game_";
+        public const string GamePickUp = "Game/pickup_game_";
+        public const string GameGrount = "Game/gamescene_";
         #endregion
     }
 }

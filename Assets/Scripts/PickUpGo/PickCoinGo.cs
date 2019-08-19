@@ -6,12 +6,24 @@ namespace MarioForOSC
     public class PickCoinGo : BaseGameObject
     {
 
+        private Animation Anim;
+
         public override void Init()
         {
             base.Init();
-            //PickPoolManage.instance.RecyCoin(gameObject);
-        }
+            Anim = GetComponent<Animation>();
 
+        }
+        public override void LateInit()
+        {
+            base.LateInit();
+            Anim.Stop();
+            Invoke("PlayAnim", Random.Range(0.1f, 1f));
+        }
+        public void PlayAnim()
+        {
+            Anim.Play();
+        }
         public override void OnHide()
         {
             base.OnHide();

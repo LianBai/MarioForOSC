@@ -6,28 +6,13 @@ namespace MarioForOSC
 {
     public class GameObjectManager
     {
-        Dictionary<EnumPrefabId, BaseGameObject> goDic= new Dictionary<EnumPrefabId, BaseGameObject>();
-
         public GameObjectManager()
         {
-            goDic.Clear();
-            AddGameobjectPrefab(EnumPrefabId.Characters, "Resources/Prefab/Characters");
-            AddGameobjectPrefab(EnumPrefabId.PickCoinPrefab, "Resources/Prefab/PickPool/PickCoinPrefab");
         }
-        private void AddGameobjectPrefab(EnumPrefabId id, string path)
-        {
-            EnumPrefabManager.instance.RegistPrefab(id, path);
-        }
-        public GameObject InstanceGameObject(EnumPrefabId id)
+        public GameObject InstanceGameObject(string path)
         {
             GameObject go;
-            go = EnumPrefabManager.instance.GetPrefab(id);
-            return GameObject.Instantiate(go);
-        }
-        public GameObject InstanceGameObjectByPath(string path)
-        {
-            GameObject go;
-            go = EnumPrefabManager.instance.GetPrefabByPath(path);
+            go = LoadPrefabManage.instance.LoadPrefab<GameObject>(path);
             return GameObject.Instantiate(go);
         }
 
