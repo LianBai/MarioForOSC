@@ -1,19 +1,19 @@
 {
-  "Version": "v0.0.21",
+  "Version": "v0.0.22",
   "Type": 0,
   "AccessRight": 0,
   "DownloadUrl": null,
   "InstallPath": "Assets/QFramework/Framework/0.PackageKit/",
   "DocUrl": "http://qf.lianxiegame.com",
   "Readme": {
-    "version": "v0.0.21",
-    "content": "添加私有权限",
+    "version": "v0.0.22",
+    "content": "修复无法打包问题",
     "author": "liangxie",
-    "date": "2019 年 08 月 11 日 11:57",
-    "VersionNumber": 21
+    "date": "2019 年 08 月 11 日 12:17",
+    "VersionNumber": 22
   },
   "Id": null,
   "Name": "0.PackageKit",
-  "VersionNumber": 21,
-  "FileName": "0.PackageKit_v0.0.21.unitypackage"
+  "VersionNumber": 22,
+  "FileName": "0.PackageKit_v0.0.22.unitypackage"
 }
