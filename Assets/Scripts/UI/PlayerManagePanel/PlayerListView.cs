@@ -23,7 +23,23 @@ namespace QFramework.MFO
 		protected override void OnBeforeDestroy()
 		{
 		}
+        /// <summary>
+        /// 初始化playeritem显示的数据
+        /// </summary>
+        /// <param name="mPlayItem"></param>
+        /// <param name="mModel"></param>
+        public void InitPlayerItem(PlayItem mPlayItem, PlayerDataList mModel)
+        {
+            this.DestroyAllChild();
+            mPlayItemsView.Clear();
 
+            mModel.mPlayerDataList.ForEach(item =>
+            {
+                AddPlayItemView(mPlayItem, item);
+
+            });
+
+        }
         /// <summary>
         /// 增加一条显示的playeritem
         /// </summary>
@@ -34,26 +50,17 @@ namespace QFramework.MFO
 	        mPlayItem.Instantiate()     //实例一个对象
 	            .Parent(this)           //设置父物体
 	            .LocalIdentity()        //初始化坐标旋转等
-                .ApplySelfTo(self => self.OnInitData(mData))
 	            .ApplySelfTo(self => mPlayItemsView.Add(mData, self))   //一种调用方法的委托
-	            .Show();
+                .ApplySelfTo(self => self.selectPlayer.Skip(1).Subscribe(SelectPlayer))
+	            .ApplySelfTo(self => self.OnInitData(mData))
+                .Show();
 	    }
-        /// <summary>
-        /// 初始化playeritem显示的数据
-        /// </summary>
-        /// <param name="mPlayItem"></param>
-        /// <param name="mModel"></param>
-	    public void InitPlayerItem(PlayItem mPlayItem,PlayerDataList mModel)
+
+        //选中的item发生的改变的时候触发的事件
+	    public void SelectPlayer(PlayerData date)
 	    {
-	        this.DestroyAllChild();
-            mPlayItemsView.Clear();
-
-	        mModel.mPlayerDataList.ForEach(item =>
-	        {
-	            AddPlayItemView(mPlayItem, item);
-
-	        });
-
+            if(date!=null)
+	            Debug.LogError(date.playericoname);
 	    }
 	}
 }

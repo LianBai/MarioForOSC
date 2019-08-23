@@ -27,10 +27,16 @@ namespace QFramework.MFO
         public PlayItem PlayerItem;
         
         [SerializeField()]
-        public UnityEngine.UI.Image bg;
+        public UnityEngine.UI.Image PlayerItemView;
         
         [SerializeField()]
         public PlayerListView Content;
+        
+        [SerializeField()]
+        public UnityEngine.UI.Toggle ViewToggle;
+        
+        [SerializeField()]
+        public UnityEngine.UI.Text ToggleText;
         
         private PlayerManagePanelData mPrivateData = null;
         
@@ -50,8 +56,10 @@ namespace QFramework.MFO
         protected override void ClearUIComponents()
         {
             PlayerItem = null;
-            bg = null;
+            PlayerItemView = null;
             Content = null;
+            ViewToggle = null;
+            ToggleText = null;
             mData = null;
         }
     }

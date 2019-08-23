@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using DG.Tweening;
+
 namespace QFramework.MFO
 {
     using UniRx;
@@ -36,7 +38,10 @@ namespace QFramework.MFO
         {
             throw new System.NotImplementedException ();
         }
-        
+        /// <summary>
+        /// 初始化数据
+        /// </summary>
+        /// <param name="uiData"></param>
         protected override void OnInit(QFramework.IUIData uiData)
         {
             mData = uiData as PlayerManagePanelData ?? new PlayerManagePanelData();
@@ -44,10 +49,19 @@ namespace QFramework.MFO
 
             Content.InitPlayerItem(PlayerItem,mData.mModel);
 
-            //mData.mModel.mPlayerDataList.ObserveAdd().Subscribe(newitem =>
-            //{
-            //    PlayItem
-            //});
+            ViewToggle.onValueChanged.AddListener(on =>
+            {
+                if (on)
+                {
+                    ToggleText.text = "<";
+                    PlayerItemView.rectTransform.DOLocalMoveX(0f,1f);
+                }
+                else
+                {
+                    ToggleText.text = ">";
+                    PlayerItemView.rectTransform.DOLocalMoveX(-365f, 1f);
+                }
+            });
         }
         
         protected override void OnOpen(QFramework.IUIData uiData)
