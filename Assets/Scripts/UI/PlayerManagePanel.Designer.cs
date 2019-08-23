@@ -24,10 +24,10 @@ namespace QFramework.MFO
         public const string NAME = "PlayerManagePanel";
         
         [SerializeField()]
-        public UnityEngine.UI.Image bg;
+        public PlayItem PlayerItem;
         
         [SerializeField()]
-        public playerItem playerItem;
+        public UnityEngine.UI.Image bg;
         
         [SerializeField()]
         public PlayerListView Content;
@@ -49,8 +49,8 @@ namespace QFramework.MFO
         
         protected override void ClearUIComponents()
         {
+            PlayerItem = null;
             bg = null;
-            playerItem = null;
             Content = null;
             mData = null;
         }

@@ -10,6 +10,7 @@
 
 namespace QFramework.MFO
 {
+    using UniRx;
     using System;
     using System.Collections;
     using System.Collections.Generic;
@@ -20,8 +21,12 @@ namespace QFramework.MFO
     
     public class PlayerManagePanelData : QFramework.UIPanelData
     {
-        //人物信息链表
-        public playerItemDataList itemDataList = new playerItemDataList();
+        public PlayerDataList mModel = new PlayerDataList();
+
+        public PlayerManagePanelData()
+        {
+            mModel.InitLoadJson();
+        }
     }
     
     public partial class PlayerManagePanel : QFramework.UIPanel
@@ -37,7 +42,12 @@ namespace QFramework.MFO
             mData = uiData as PlayerManagePanelData ?? new PlayerManagePanelData();
             // please add init code here
 
-            
+            Content.InitPlayerItem(PlayerItem,mData.mModel);
+
+            //mData.mModel.mPlayerDataList.ObserveAdd().Subscribe(newitem =>
+            //{
+            //    PlayItem
+            //});
         }
         
         protected override void OnOpen(QFramework.IUIData uiData)

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3716737359
+CRC: 3108725590
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,4 +7,55 @@ AssetBundleManifest:
       Dependencies: {}
     Info_1:
       Name: characters_prefab
+      Dependencies: {}
+    Info_2:
+      Name: ground_start_prefab
+      Dependencies: {}
+    Info_3:
+      Name: selectplayer_prefab
+      Dependencies: {}
+    Info_4:
+      Name: pickcoinpool_prefab
+      Dependencies: {}
+    Info_5:
+      Name: player_3_prefab
+      Dependencies: {}
+    Info_6:
+      Name: gamescene_1_prefab
+      Dependencies: {}
+    Info_7:
+      Name: pickcoinprefab_prefab
+      Dependencies: {}
+    Info_8:
+      Name: ground_end_prefab
+      Dependencies: {}
+    Info_9:
+      Name: ground_1_prefab
+      Dependencies: {}
+    Info_10:
+      Name: ground_2_prefab
+      Dependencies: {}
+    Info_11:
+      Name: selectlevel_prefab
+      Dependencies: {}
+    Info_12:
+      Name: player_2_prefab
+      Dependencies: {}
+    Info_13:
+      Name: player_4_prefab
+      Dependencies: {}
+    Info_14:
+      Name: player_5_prefab
+      Dependencies: {}
+    Info_15:
+      Name: mainscene_prefab
+      Dependencies: {}
+    Info_16:
+      Name: gamescene_1_json
+      Dependencies: {}
+    Info_17:
+      Name: playeritem_json
+      Dependencies: {}
+    Info_18:
+      Name: playermanagepanel_prefab
       Dependencies: {}

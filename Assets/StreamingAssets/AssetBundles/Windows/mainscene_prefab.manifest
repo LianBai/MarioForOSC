@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1265575452
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a3a81745f56754cb4dd97ebed434e521
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9b2959449acc33c53c0d541313599571
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8fa183be59c59cb49b22a6d6d327acac, type: 3}
+Assets:
+- Assets/AssetBundles/Prefab/Scence/MainScene.prefab
+Dependencies: []

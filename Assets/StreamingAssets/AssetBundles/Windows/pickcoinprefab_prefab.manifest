@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 740340622
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bc6d8087fadf5ff8636bb502a6296f77
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 573b69e2f6a16adea30d137a4ba4a704
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b126aa849608b4daae908748970c6b, type: 3}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundles/Prefab/PickPool/PickCoinPrefab.prefab
+Dependencies: []
