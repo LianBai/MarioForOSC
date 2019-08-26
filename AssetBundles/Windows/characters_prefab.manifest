@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2746540379
+CRC: 393965136
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 96538315df41af36296d006a9b826888
+    Hash: c24f6768bcb527f1a51de2671dea03ae
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cd457e363aa8a67e346d2d067ece79f2
+    Hash: 8dd0a42a2772de4d225a08ecb3612c3a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,20 +29,22 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 54
   Script: {instanceID: 0}
-- Class: 81
+- Class: 74
   Script: {instanceID: 0}
-- Class: 82
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
   Script: {instanceID: 0}
 - Class: 114
-  Script: {instanceID: 0}
+  Script: {fileID: 11500000, guid: 42bef3a04c15cd543af5083bbe3e93a5, type: 3}
 - Class: 124
-  Script: {instanceID: 0}
-- Class: 135
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
 Assets:
-- Assets/Resources/Prefab/Characters.prefab
+- Assets/AssetBundles/Prefab/Characters.prefab
 Dependencies: []

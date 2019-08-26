@@ -27,9 +27,11 @@ namespace QFramework.MFO
         /// </summary>
         public void InitLoadJson()
         {
-            ResLoader resLoader = ResLoader.Allocate();
-            var jsonTest = resLoader.LoadSync<TextAsset>("playeritem").text;
-            mPlayerDataList = jsonTest.FromJson<ReactiveCollection<PlayerData>>();
+            //ResLoader resLoader = ResLoader.Allocate();
+            //var jsonTest = resLoader.LoadSync<TextAsset>("playeritem").text;
+
+            var jsonText = ResLoadManage.Instance.mResLoader.LoadSync<TextAsset>("playeritem").text;
+            mPlayerDataList = jsonText.FromJson<ReactiveCollection<PlayerData>>();
         }
     }
 }

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3275602919
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a619236a7e3b3404a0e248c9343e6ae8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/JsonFile/Game/gamescene_1.json
+Dependencies: []

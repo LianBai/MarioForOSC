@@ -333,6 +333,68 @@
     <Compile Include="Assets\QFramework\Framework\Plugins\FlexiSocket\ISocketServer.cs" />
     <Compile Include="Assets\QFramework\Framework\Plugins\FlexiSocket\MessageStructure.cs" />
     <Compile Include="Assets\QFramework\Framework\Plugins\FlexiSocket\SocketDelegate.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\BZip2\BZip2.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\BZip2\BZip2Constants.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\BZip2\BZip2Exception.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\BZip2\BZip2InputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\BZip2\BZip2OutputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Checksum\Adler32.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Checksum\BZip2Crc.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Checksum\Crc32.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Checksum\IChecksum.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Core\FileSystemScanner.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Core\INameTransform.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Core\IScanFilter.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Core\NameFilter.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Core\PathFilter.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Core\StreamUtils.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Core\WindowsPathUtils.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Encryption\PkzipClassic.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Encryption\ZipAESStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Encryption\ZipAESTransform.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\GZip\GZip.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\GZip\GZipConstants.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\GZip\GZipException.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\GZip\GzipInputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\GZip\GzipOutputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Lzw\LzwConstants.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Lzw\LzwException.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Lzw\LzwInputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\SharpZipBaseException.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Tar\InvalidHeaderException.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Tar\TarArchive.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Tar\TarBuffer.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Tar\TarEntry.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Tar\TarException.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Tar\TarHeader.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Tar\TarInputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Tar\TarOutputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\Deflater.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\DeflaterConstants.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\DeflaterEngine.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\DeflaterHuffman.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\DeflaterPending.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\Inflater.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\InflaterDynHeader.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\InflaterHuffmanTree.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\PendingBuffer.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\Streams\DeflaterOutputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\Streams\InflaterInputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\Streams\OutputWindow.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\Compression\Streams\StreamManipulator.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\FastZip.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\IEntryFactory.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\WindowsNameTransform.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipConstants.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipEntry.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipEntryFactory.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipException.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipExtraData.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipFile.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipHelperStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipInputStream.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipNameTransform.cs" />
+    <Compile Include="Assets\QFramework\Framework\Plugins\ICSharpCode.SharpZipLib\Zip\ZipOutputStream.cs" />
     <Compile Include="Assets\QFramework\Framework\Plugins\MiniJSON\MiniJSON.cs" />
     <Compile Include="Assets\QFrameworkData\QAssets.cs" />
     <Compile Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
@@ -358,37 +420,35 @@
     <Compile Include="Assets\Resources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
     <Compile Include="Assets\Resources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
     <Compile Include="Assets\Resources\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
-    <Compile Include="Assets\Scripts\Characters\CharactersGO.cs" />
-    <Compile Include="Assets\Scripts\FilesManage\JsonFilesPath.cs" />
-    <Compile Include="Assets\Scripts\Level\LevelData.cs" />
-    <Compile Include="Assets\Scripts\Level\LevelItem.cs" />
-    <Compile Include="Assets\Scripts\Level\SelectLevelPanel.cs" />
-    <Compile Include="Assets\Scripts\Manager\BaseGameObject.cs" />
-    <Compile Include="Assets\Scripts\Manager\BaseGameSceneManage.cs" />
-    <Compile Include="Assets\Scripts\Manager\ControlManage.cs" />
-    <Compile Include="Assets\Scripts\Manager\GameManage.cs" />
-    <Compile Include="Assets\Scripts\Manager\LoadGamePickUp.cs" />
-    <Compile Include="Assets\Scripts\Manager\LoadGameSceneManage.cs" />
+    <Compile Include="Assets\Scripts\GameObject\MainSceneGround.cs" />
+    <Compile Include="Assets\Scripts\GameObject\MainSceneGround.Designer.cs" />
     <Compile Include="Assets\Scripts\Manager\MainSceneManage.cs" />
-    <Compile Include="Assets\Scripts\PickUpGo\PickCoinGo.cs" />
-    <Compile Include="Assets\Scripts\PickUpGo\PickPoolManage.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerData.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerItem.cs" />
-    <Compile Include="Assets\Scripts\Player\SelectPlayerPanel.cs" />
-    <Compile Include="Assets\Scripts\Prefabs\GameObjectManager.cs" />
-    <Compile Include="Assets\Scripts\Prefabs\LoadPrefabManage.cs" />
-    <Compile Include="Assets\Scripts\Scences\LoadGameGround.cs" />
-    <Compile Include="Assets\Scripts\Tools\CacheData.cs" />
-    <Compile Include="Assets\Scripts\Tools\JsonManage.cs" />
-    <Compile Include="Assets\Scripts\Tools\MyEventType.cs" />
-    <Compile Include="Assets\Scripts\Tools\UITool.cs" />
+    <Compile Include="Assets\Scripts\Manager\MyEventType.cs" />
+    <Compile Include="Assets\Scripts\Manager\ResLoadManage.cs" />
+    <Compile Include="Assets\Scripts\Manager\UITools.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelManagePanel.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelManagePanel.Designer.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelManagePanel\LevelData.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelManagePanel\LevelItem.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelManagePanel\LevelItem.Designer.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelManagePanel\LevelListView.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelManagePanel\LevelListView.Designer.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerManagePanel.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerManagePanel.Designer.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerManagePanel\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerManagePanel\PlayerListView.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerManagePanel\PlayerListView.Designer.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerManagePanel\PlayItem.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerManagePanel\PlayItem.Designer.cs" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
     <None Include="Assets\Models\1\Mario\Tag.txt" />
     <None Include="Assets\Models\2\Mario (Aviator)\Tag.txt" />
     <None Include="Assets\Resources\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Models\3\Super Mario Odyssey\Mario (Black Suit)\Placement Notes.txt" />
     <None Include="Assets\QFramework\Framework\5.ShaderLib\CGInclude\UIGrabPass.cginc" />
     <None Include="Assets\Models\4\Super Mario Odyssey\Mario (Builder)\Tag.txt" />
@@ -411,6 +471,7 @@
     <None Include="Assets\Models\3\Super Mario Odyssey\Mario (Black Suit)\Tag.txt" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
     <None Include="Assets\Resources\Mario\Art\Textures\Blob\ShadowProjection.shader" />
     <None Include="Assets\Models\3\Super Mario Odyssey\Mario (Black Suit)\Materials (Black Suit).txt" />
@@ -422,6 +483,7 @@
     <None Include="Assets\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
     <None Include="Assets\Models\4\Super Mario Odyssey\Mario (Builder)\Placement Notes.txt" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Resources\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\SDF.cginc" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
@@ -441,11 +503,14 @@
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Resources\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Hash.cginc" />
     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\Math.cginc" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Models\5\Super Mario Odyssey\Mario (Boxers)\Tag.txt" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\QFramework\Framework\0.PackageKit\Plugins\JsonDotNet\link.xml" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
     <None Include="Assets\Models\5\Super Mario Odyssey\Mario (Boxers)\Materials (Boxers).txt" />
@@ -455,14 +520,18 @@
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
     <None Include="Assets\QFramework\Framework\Plugins\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
     <None Include="Assets\QFramework\Framework\0.PackageKit\Plugins\UniRx\ReadMe.txt" />
     <None Include="Assets\Resources\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Models\1\Mario\Materials (Common).txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\QFramework\Framework\3.UIKit\3.Guide\Shader\RectGuideShader.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
@@ -470,11 +539,14 @@
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
     <None Include="Assets\QFramework\Framework\5.ShaderLib\CGInclude\GaussianBlur.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\QFramework\Framework\4.ScriptCollection\ShaderLib\FBM.cginc" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
     <None Include="Assets\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\EasyTouchBundle\EasyTouch\RealseNotes.txt" />
     <None Include="Assets\QFramework\Framework\5.ShaderLib\CGInclude\Gray.cginc" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
@@ -483,18 +555,19 @@
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
     <None Include="Assets\Models\1\Mario\Placement Notes.txt" />
     <None Include="Assets\Resources\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Models\2\Mario (Aviator)\Materials (Aviator).txt" />
     <None Include="Assets\Resources\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
     <None Include="Assets\EasyTouchBundle\EasyTouch\How to migrate from EasyTouch 4.X.txt" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Models\5\Super Mario Odyssey\Mario (Boxers)\Materials (Common).txt" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Resources\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -511,41 +584,14 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Unity2019.2.0f1/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -733,23 +779,11 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>D:/Programe/MarioForOSC/Assets/QFramework/Framework/0.PackageKit/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:/Programe/MarioForOSC/Assets/QFramework/Framework/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
     <Reference Include="ProtobufNet">
       <HintPath>D:/Programe/MarioForOSC/Assets/QFramework/Framework/Plugins/ProtobufNet.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>D:/Programe/MarioForOSC/Assets/QFramework/Framework/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Programe/MarioForOSC/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Programe/MarioForOSC/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Programe/MarioForOSC/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>E:/Unity2019.2.0f1/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -1139,17 +1173,9 @@
       <Project>{71DB9F8C-A5B4-CF4A-D5D3-E6DBB8699BC5}</Project>
       <Name>QF.Singleton</Name>
     </ProjectReference>
-    <ProjectReference Include="QF.Editor.csproj">
-      <Project>{C34F172B-6A9E-9541-D5CA-3A9A80192312}</Project>
-      <Name>QF.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="HTTP.csproj">
       <Project>{C1580F87-CB8E-3977-5C3A-2F4527A9F399}</Project>
       <Name>HTTP</Name>
-    </ProjectReference>
-    <ProjectReference Include="QF.Package.csproj">
-      <Project>{74F0CD00-CC1A-D4D7-0812-745008D147AB}</Project>
-      <Name>QF.Package</Name>
     </ProjectReference>
     <ProjectReference Include="QF.SimpleHelper.csproj">
       <Project>{FEA4EA4A-5618-4638-D6DA-D40EB7E6A619}</Project>

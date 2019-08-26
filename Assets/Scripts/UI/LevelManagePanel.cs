@@ -7,6 +7,7 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+using DG.Tweening;
 
 namespace QFramework.MFO
 {
@@ -20,6 +21,12 @@ namespace QFramework.MFO
     
     public class LevelManagePanelData : QFramework.UIPanelData
     {
+        public LevelDataList mLevelData = new LevelDataList();
+
+        public LevelManagePanelData()
+        {
+            mLevelData.InitLoadJson();
+        }
     }
     
     public partial class LevelManagePanel : QFramework.UIPanel
@@ -34,6 +41,22 @@ namespace QFramework.MFO
         {
             mData = uiData as LevelManagePanelData ?? new LevelManagePanelData();
             // please add init code here
+
+            Content.InitLevelItem(LevelItem,mData.mLevelData);
+
+            ViewToggle.onValueChanged.AddListener(on =>
+            {
+                if (on)
+                {
+                    ToggleText.text = ">";
+                    PlayerItemView.rectTransform.DOLocalMoveX(692f, 0.5f);
+                }
+                else
+                {
+                    ToggleText.text = "<";
+                    PlayerItemView.rectTransform.DOLocalMoveX(1024f, 0.5f);
+                }
+            });
         }
         
         protected override void OnOpen(QFramework.IUIData uiData)

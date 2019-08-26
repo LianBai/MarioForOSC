@@ -88,9 +88,6 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/Programe/MarioForOSC/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -292,9 +289,6 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>D:/Programe/MarioForOSC/Assets/QFramework/Framework/0.PackageKit/Plugins/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:/Programe/MarioForOSC/Assets/QFramework/Framework/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
     <Reference Include="ProtobufNet">
       <HintPath>D:/Programe/MarioForOSC/Assets/QFramework/Framework/Plugins/ProtobufNet.dll</HintPath>
     </Reference>
@@ -303,21 +297,6 @@
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>D:/Programe/MarioForOSC/Assets/QFramework/Framework/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/Programe/MarioForOSC/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Programe/MarioForOSC/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Programe/MarioForOSC/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Programe/MarioForOSC/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/Programe/MarioForOSC/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:/Unity2019.2.0f1/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -1,6 +1,6 @@
 {
   "Namespace": "QFramework.MFO",
   "UIScriptDir": "/Scripts/UI",
-  "UIPrefabDir": "/Art/UIPrefab",
+  "UIPrefabDir": "/Art/UIPrefab/Panel",
   "IsDefaultNamespace": false
 }

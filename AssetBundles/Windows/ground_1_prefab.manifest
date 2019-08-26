@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1472222819
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a9e4240b8ea781246a20e8163080a504
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2bbc66dc7afd586473ac937452ba2612
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0d2f50a8e0bb841a5aaa90ae55db8849, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+Assets:
+- Assets/AssetBundles/Prefab/Ground/ground_1.prefab
+Dependencies: []

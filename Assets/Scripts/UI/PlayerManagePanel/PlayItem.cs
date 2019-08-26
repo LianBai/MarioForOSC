@@ -42,11 +42,15 @@ namespace QFramework.MFO
                 {
                     selectPlayer.Value = data;
                     UITools.Instance.ChanegeImage(iconBg, "PlayerIcon_select");
+                    iconBg.raycastTarget = false;
+                    icon.raycastTarget = false;
                 }
                 else
                 {
                     selectPlayer.Value = null;
                     UITools.Instance.ChanegeImage(iconBg,"PlayerIcon_bg");
+                    iconBg.raycastTarget = true;
+                    icon.raycastTarget = true;
                 }
             });
         }
