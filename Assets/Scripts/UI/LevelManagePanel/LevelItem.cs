@@ -8,6 +8,7 @@ using QF;
 using UnityEngine;
 using UnityEngine.UI;
 using QFramework;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 namespace QFramework.MFO
@@ -36,8 +37,9 @@ namespace QFramework.MFO
             GetComponent<Button>().onClick.AddListener(() =>
             {
                 //Debug.LogError("ÇÐ»»³¡¾°");
+                UIMgr.CloseAllPanel();
                 SceneManager.LoadSceneAsync("Game");
             });
-	    }
+        }
 	}
 }

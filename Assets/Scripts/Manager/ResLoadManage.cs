@@ -66,7 +66,7 @@ namespace QFramework.MFO
                     break;
                 case PanelType.GamePanel:
                 {
-                    mainInitPanel.ForEach(panelname =>
+                    gameInitPanel.ForEach(panelname =>
                     {
                         UIMgr.OpenPanel(panelname);
                     });

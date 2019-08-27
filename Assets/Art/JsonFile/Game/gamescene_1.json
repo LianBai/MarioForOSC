@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "name": "ground_start"
+    "prefabname": "ground_start"
   },
   {
     "id": 2,
-    "name": "ground_1"
+    "prefabname": "ground_1"
   },
   {
     "id": 3,
-    "name": "ground_2"
+    "prefabname": "ground_2"
   },
   {
     "id": 4,
-    "name": "ground_end"
+    "prefabname": "ground_end"
   }
 ]
