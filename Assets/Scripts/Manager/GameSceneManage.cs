@@ -21,6 +21,7 @@ namespace QFramework.MFO
         {
             ResLoadManage.Instance.OpenInitPanel(PanelType.GamePanel);
             LoadSceneGround(1);
+            LoadPlayer("CharacterManage");
         }
         /// <summary>
         /// 初始化加载局内场景的地面
@@ -38,6 +39,7 @@ namespace QFramework.MFO
             //遍历初始化加载读取出来的数据场景
             groundDateList.ForEach(item =>
             {
+                //加载并且初始化逐个场景
                 ResLoadManage.Instance.mResLoader
                     .LoadSync<GameObject>(item.prefabname)
                     .Instantiate()
@@ -50,7 +52,20 @@ namespace QFramework.MFO
                     .Show();
             });
         }
+        /// <summary>
+        /// 初始化角色控制物体
+        /// </summary>
+        /// <param name="name"></param>
+        public void LoadPlayer(string name)
+        {
+            ResLoadManage.Instance.mResLoader
+                .LoadSync<GameObject>(name)
+                .Instantiate()
+                //.ApplySelfTo(self =>
+                //{
 
-
+                //})
+                .Show();
+        }
     }
 }
