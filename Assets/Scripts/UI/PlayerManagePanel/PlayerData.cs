@@ -15,6 +15,7 @@ namespace QFramework.MFO
         [SerializeField] public string playericoname;
         [SerializeField] public string playerprefabname;
     }
+
     /// <summary>
     /// 从json读取所有的playerItem到链表里
     /// </summary>

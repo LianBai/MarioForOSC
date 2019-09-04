@@ -32,7 +32,6 @@ namespace QFramework.MFO
 	    void LateUpdate()
 	    {
 	        this.seeCamera.transform.position = playerTf.position + offPos;
-
 	    }
 	}
 }

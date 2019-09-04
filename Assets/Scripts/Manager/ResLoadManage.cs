@@ -11,7 +11,7 @@ namespace QFramework.MFO
         MainPanel,
         GamePanel
     }
-    public class ResLoadManage : ISingleton
+    public class ResLoadManage : Singleton<ResLoadManage>
     {
         public ResLoader mResLoader = ResLoader.Allocate();
         //需要初始化的主场景面板的名字
@@ -24,14 +24,10 @@ namespace QFramework.MFO
             InitMainPanelName();
             InitGamePanelName();
         }
-        public static ResLoadManage Instance
-        {
-            get { return SingletonProperty<ResLoadManage>.Instance; }
-        }
-        public void OnSingletonInit()
-        {
-            
-        }
+        //public static ResLoadManage Instance
+        //{
+        //    get { return SingletonProperty<ResLoadManage>.Instance; }
+        //}
         /// <summary>
         /// 初始化主场景需要打开的面板名字
         /// </summary>

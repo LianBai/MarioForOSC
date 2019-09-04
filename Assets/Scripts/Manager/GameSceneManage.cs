@@ -22,7 +22,9 @@ namespace QFramework.MFO
             ResLoadManage.Instance.OpenInitPanel(PanelType.GamePanel);
             LoadSceneGround(1);
             LoadPlayer("CharacterManage");
+            PickUpCoinManage.Instance.InitPickCoin(1);
         }
+
         /// <summary>
         /// 初始化加载局内场景的地面
         /// </summary>
@@ -52,6 +54,7 @@ namespace QFramework.MFO
                     .Show();
             });
         }
+
         /// <summary>
         /// 初始化角色控制物体
         /// </summary>
@@ -67,5 +70,6 @@ namespace QFramework.MFO
                 //})
                 .Show();
         }
+
     }
 }
