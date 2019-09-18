@@ -13,7 +13,7 @@ namespace QFramework.MFO
 		{
 			// Code Here
             //生成玩家角色
-		    ResLoadManage.Instance.mResLoader.LoadSync<GameObject>("Player_2")
+		    ResLoadManage.Instance.mResLoader.LoadSync<GameObject>(CacheDataManage.Instance.GetStringData(DataType.playerName))
 		        .Instantiate()
 		        .ApplySelfTo(self =>
 		        {

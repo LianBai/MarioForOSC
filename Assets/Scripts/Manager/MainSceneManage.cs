@@ -9,13 +9,16 @@ namespace QFramework.MFO
 {
     public class MainSceneManage : MonoBehaviour
     {
-        
-        void Start()
+        void Awake()
         {
-            ResLoadManage.Instance.OpenInitPanel(PanelType.MainPanel);
+            //CacheDataManage.Instance.RescoveyCacheData();
             ResLoadManage.Instance.mResLoader
                 .LoadSync<GameObject>("mainsceneground")
                 .Instantiate();
+        }
+        void Start()
+        {
+            ResLoadManage.Instance.OpenInitPanel(PanelType.MainPanel);
         }
 
     }

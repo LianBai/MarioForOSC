@@ -66,10 +66,12 @@ namespace QFramework.MFO
         
         protected override void OnOpen(QFramework.IUIData uiData)
         {
+            Content.OnShow();
         }
         
         protected override void OnShow()
         {
+            
         }
         
         protected override void OnHide()

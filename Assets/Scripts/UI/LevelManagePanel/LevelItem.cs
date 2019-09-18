@@ -32,7 +32,7 @@ namespace QFramework.MFO
 	    {
 	        mLevelData = mleveldata;
 	        LevelText.text = mleveldata.level.ToString();
-
+            
             //注册点击关卡按钮的事件
             GetComponent<Button>().onClick.AddListener(() =>
             {

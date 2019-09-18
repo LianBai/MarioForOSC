@@ -85,5 +85,5 @@ namespace QFramework.MFO
                 //self.gameObject.GetComponent<Animation>().clip = 0.1f*Random.Range(0,10);
             });
         }
-    }
+     }
 }

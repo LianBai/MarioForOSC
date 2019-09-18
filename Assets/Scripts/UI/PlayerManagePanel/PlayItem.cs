@@ -17,11 +17,14 @@ namespace QFramework.MFO
 	{
 	    private PlayerData mData;
 	    private Image iconBg;
+	    public Toggle mToggle;
         public ReactiveProperty<PlayerData> selectPlayer = new ReactiveProperty<PlayerData>();
         private void Awake()
 		{
 		    mData = new PlayerData();
 		    iconBg = GetComponent<Image>();
+		    mToggle = GetComponent<Toggle>();
+
 		}
 
 		protected override void OnBeforeDestroy()
@@ -36,7 +39,7 @@ namespace QFramework.MFO
 	        mData = data;
             UITools.Instance.ChanegeImage(icon,data.playericoname);
             //为item注册选中监听事件
-            GetComponent<Toggle>().onValueChanged.AddListener(on =>
+	        GetComponent<Toggle>().onValueChanged.AddListener(on =>
             {
                 if (on)
                 {

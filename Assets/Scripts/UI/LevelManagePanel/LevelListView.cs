@@ -13,7 +13,8 @@ namespace QFramework.MFO
 {
 	public partial class LevelListView : UIElement
 	{
-	    //通过data数据和levelitem物体绑定
+	    private int maxLevel;
+ 	    //通过data数据和levelitem物体绑定
         public Dictionary<LevelData,LevelItem> mLevelItems = new Dictionary<LevelData, LevelItem>();
 		private void Awake()
 		{
@@ -32,8 +33,9 @@ namespace QFramework.MFO
 	    {
             this.DestroyAllChild();
 	        mLevelItems.Clear();
+	        maxLevel = CacheDataManage.Instance.GetIntData(DataType.levelMax);
 
-	        mLevelDataList.mLevelDatas.ForEach(item =>
+            mLevelDataList.mLevelDatas.ForEach(item =>
 	        {
 	            AddLevelItem(mLevelItem, item);
 
@@ -45,8 +47,15 @@ namespace QFramework.MFO
 	        mLevelItem.Instantiate()
 	            .Parent(this)
 	            .LocalIdentity()
-                .ApplySelfTo(self => mLevelItems.Add(mLevelData,self))
-                .ApplySelfTo(self => self.OnInitData(mLevelData))
+                .ApplySelfTo(self =>
+	            {
+	                mLevelItems.Add(mLevelData, self);
+	                self.OnInitData(mLevelData);
+	                if (mLevelData.level <= maxLevel)
+	                {
+	                    UITools.Instance.ChanegeImage(self.GetComponent<Image>(), "PlayerIcon_select");
+	                }
+	            })
 	            .Show();
 
 	    }

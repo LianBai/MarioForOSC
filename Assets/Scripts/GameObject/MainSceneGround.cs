@@ -11,7 +11,7 @@ namespace QFramework.MFO
 	    public GameObject mOldSelectGameObject;
         public ReactiveProperty<PlayerData> mSelectPlayer = new ReactiveProperty<PlayerData>();
         private List<GameObject> hasPrefab = new List<GameObject>();
-		void Start()
+		void Awake()
 		{
             // Code Here
 		    hasPrefab.Clear();
