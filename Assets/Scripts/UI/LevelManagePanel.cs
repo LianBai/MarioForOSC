@@ -49,12 +49,12 @@ namespace QFramework.MFO
                 if (on)
                 {
                     ToggleText.text = ">";
-                    PlayerItemView.rectTransform.DOLocalMoveX(692f, 0.5f);
+                    LevelItemView.rectTransform.DOLocalMoveX(-338f, 0.5f);
                 }
                 else
                 {
                     ToggleText.text = "<";
-                    PlayerItemView.rectTransform.DOLocalMoveX(1024f, 0.5f);
+                    LevelItemView.rectTransform.DOLocalMoveX(0f, 0.5f);
                 }
             });
         }

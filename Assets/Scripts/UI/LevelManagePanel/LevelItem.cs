@@ -27,7 +27,7 @@ namespace QFramework.MFO
         /// <summary>
         /// 初始化item的数据并初始化显示
         /// </summary>
-        /// <param name="mleveldata"></param>
+        /// <param name="mleveldata"></param> 
 	    public void OnInitData(LevelData mleveldata)
 	    {
 	        mLevelData = mleveldata;
@@ -38,6 +38,7 @@ namespace QFramework.MFO
             {
                 //Debug.LogError("切换场景");
                 UIMgr.CloseAllPanel();
+                CacheDataManage.Instance.SetIntData(DataType.playLevel,mleveldata.level);
                 SceneManager.LoadSceneAsync("Game");
             });
         }

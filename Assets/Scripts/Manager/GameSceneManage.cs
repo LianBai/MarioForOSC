@@ -19,9 +19,13 @@ namespace QFramework.MFO
         // Start is called before the first frame update
         void Start()
         {
+            //初始化游戏内显示的面板ui
             ResLoadManage.Instance.OpenInitPanel(PanelType.GamePanel);
-            LoadSceneGround(1);
+            //初始化加载游戏内的场景
+            LoadSceneGround(CacheDataManage.Instance.GetIntData(DataType.playLevel));
+            //加载人物角色
             LoadPlayer("CharacterManage");
+            //初始化加载金币
             PickUpCoinManage.Instance.InitPickCoin(1);
         }
 

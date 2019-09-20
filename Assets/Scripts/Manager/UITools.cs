@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace QFramework.MFO
 {
-    public class UITools : ISingleton
+    public class UITools : Singleton<UITools>
     {
         private UITools()
         {
@@ -22,12 +22,5 @@ namespace QFramework.MFO
             image.sprite = ResLoadManage.Instance.mResLoader.LoadSprite(resName);
         }
 
-        public static UITools Instance
-        {
-            get { return SingletonProperty<UITools>.Instance; }
-        }
-        public void OnSingletonInit()
-        {
-        }
     }
 }

@@ -9,7 +9,6 @@ namespace QFramework.MFO
         Start = QMgrID.Game,
         //切换一个新的角色
         SelectNewPlayer,
-        
         End
     }
 }

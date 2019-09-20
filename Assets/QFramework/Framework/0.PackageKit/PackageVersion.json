@@ -1,19 +1,19 @@
 {
-  "Version": "v0.0.22",
+  "Version": "v0.0.27",
   "Type": 0,
   "AccessRight": 0,
   "DownloadUrl": null,
   "InstallPath": "Assets/QFramework/Framework/0.PackageKit/",
   "DocUrl": "http://qf.lianxiegame.com",
   "Readme": {
-    "version": "v0.0.22",
-    "content": "修复无法打包问题",
+    "version": "v0.0.27",
+    "content": "fix toolbar view default values error",
     "author": "liangxie",
-    "date": "2019 年 08 月 11 日 12:17",
-    "VersionNumber": 22
+    "date": "2019 年 09 月 03 日 23:53",
+    "VersionNumber": 27
   },
   "Id": null,
   "Name": "0.PackageKit",
-  "VersionNumber": 22,
-  "FileName": "0.PackageKit_v0.0.22.unitypackage"
+  "VersionNumber": 27,
+  "FileName": "0.PackageKit_v0.0.27.unitypackage"
 }

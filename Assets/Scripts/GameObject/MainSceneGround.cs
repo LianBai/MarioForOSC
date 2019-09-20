@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using QF.Extensions;
 using UnityEngine;
@@ -19,10 +20,27 @@ namespace QFramework.MFO
             //初始化主场景的位置
             transform.localPosition = new Vector3(-2.5f, 7f, 28f);
             //注册当角色选择发生改变的时候的事件
-		    QEventSystem.RegisterEvent(MyEventType.SelectNewPlayer, ChangePlayerShow);
+		    //QEventSystem.RegisterEvent(MyEventType.SelectNewPlayer, ChangePlayerShow);
+		    MyEventSystem.GetEvent(MyEventType.SelectNewPlayer)
+                .Subscribe(ChangePlayerShow)
+                .AddTo(this);
 		}
 
-	    private void ChangePlayerShow(int key, object[] param)
+	    //void Start()
+	    //{
+	    //    MyEventSystem.GetEvent(MyEventType.Test).Subscribe(ReciveTest).AddTo(this);
+     //       MyEventSystem.Send(MyEventType.Test, "test01", "Test02");
+     //       MyEventSystem.Send(MyEventType.Test, "test03", "Test04");
+     //   }
+
+	    //void ReciveTest(object[] param)
+	    //{
+	    //    Debug.LogError(param[0]);
+	    //    Debug.LogError(param[1]);
+     //   }
+
+
+        private void ChangePlayerShow(object[] param)
 	    {
 	        mSelectPlayer.Value = (PlayerData) param[0];
             if (mOldSelectGameObject != null)   //切换物体时，先把上一个显示的隐藏掉

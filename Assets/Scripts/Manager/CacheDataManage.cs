@@ -11,12 +11,14 @@ namespace QFramework.MFO
         //玩家选择的角色
         playerName,
         //玩家通过的最高等级
-        levelMax
+        levelMax,
+        //玩家正在玩的关卡
+        playLevel
     }
     /// <summary>
     /// 缓存的加载与设置
     /// </summary>
-    public class CacheDataManage : ISingleton
+    public class CacheDataManage : Singleton<CacheDataManage>
     {
         public void RescoveyCacheData()
         {
@@ -48,20 +50,10 @@ namespace QFramework.MFO
             }
             return PlayerPrefs.GetString(type.ToString());
         }
-
-        public void OnSingletonInit()
-        {
-            //throw new System.NotImplementedException();
-        }
-
-        public static CacheDataManage Instance
-        {
-            get { return SingletonProperty<CacheDataManage>.Instance; }
-        }
-
         private CacheDataManage()
         {
-            
+
         }
+
     }
 }

@@ -84,7 +84,8 @@ namespace QFramework.MFO
 	            CacheDataManage.Instance.SetStringData(DataType.playerName, playerName);
                 //Debug.LogError(date.playericoname);
                 //发送改变了选择的角色的事件
-                QEventSystem.SendEvent(MyEventType.SelectNewPlayer, date);
+                //QEventSystem.SendEvent(MyEventType.SelectNewPlayer, date);
+                MyEventSystem.Send(MyEventType.SelectNewPlayer, date);
 	        }
 
 	    }

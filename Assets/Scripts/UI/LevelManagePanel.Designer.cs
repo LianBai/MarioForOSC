@@ -24,7 +24,7 @@ namespace QFramework.MFO
         public const string NAME = "LevelManagePanel";
         
         [SerializeField()]
-        public UnityEngine.UI.Image PlayerItemView;
+        public UnityEngine.UI.Image LevelItemView;
         
         [SerializeField()]
         public LevelListView Content;
@@ -55,7 +55,7 @@ namespace QFramework.MFO
         
         protected override void ClearUIComponents()
         {
-            PlayerItemView = null;
+            LevelItemView = null;
             Content = null;
             ViewToggle = null;
             ToggleText = null;

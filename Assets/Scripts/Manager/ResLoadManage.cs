@@ -21,6 +21,7 @@ namespace QFramework.MFO
         private ResLoadManage()
         {
             ResMgr.Init();
+            UIMgr.SetResolution(2048,1536,0.5f);
             InitMainPanelName();
             InitGamePanelName();
         }
