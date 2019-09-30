@@ -26,18 +26,18 @@ namespace QFramework.MFO
                 .AddTo(this);
 		}
 
-	    //void Start()
-	    //{
-	    //    MyEventSystem.GetEvent(MyEventType.Test).Subscribe(ReciveTest).AddTo(this);
-     //       MyEventSystem.Send(MyEventType.Test, "test01", "Test02");
-     //       MyEventSystem.Send(MyEventType.Test, "test03", "Test04");
-     //   }
+        //void Start()
+        //{
+        //    MyEventSystem.GetEvent(MyEventType.Test).Subscribe(ReciveTest).AddTo(this);
+        //       MyEventSystem.Send(MyEventType.Test, "test01", "Test02");
+        //       MyEventSystem.Send(MyEventType.Test, "test03", "Test04");
+        //   }
 
-	    //void ReciveTest(object[] param)
-	    //{
-	    //    Debug.LogError(param[0]);
-	    //    Debug.LogError(param[1]);
-     //   }
+        //void ReciveTest(object[] param)
+        //{
+        //    Debug.LogError(param[0]);
+        //    Debug.LogError(param[1]);
+        //   }
 
 
         private void ChangePlayerShow(object[] param)

@@ -61,6 +61,7 @@ namespace QFramework.MFO
             if (mCoinPosList.Count != 0)
             {
                 //StartCoroutine(AddCoin(tF));
+                tF.gameObject.SetActive(false);
             }
             else
             {

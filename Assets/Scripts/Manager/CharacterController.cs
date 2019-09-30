@@ -1,7 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UniRx;
+using UniRx.Triggers;
+using UnityEditor.UI;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace QFramework.MFO
 {
@@ -24,6 +28,37 @@ namespace QFramework.MFO
             myJoystick.onMove.AddListener(PlayerMove);
             myJoystick.onMoveEnd.AddListener(PlayerStop);
             myJoystick.onMoveStart.AddListener(PlayerStart);
+
+            gameObject.OnTriggerEnterAsObservable()
+                .Where(triggerCollider => triggerCollider.gameObject.CompareTag("PickCoin"))
+                .Subscribe(triggerCollider =>
+                {
+                    triggerCollider.gameObject.GetComponent<Animation>()["pickup_rotate"].speed = 3;
+                    triggerCollider.transform
+                        .DOLocalMoveY(triggerCollider.transform.localPosition.y + 1.5f, 0.3f)
+                        .OnComplete(()=>
+                        {
+                            
+                            PickUpCoinManage.Instance.RecyCoin(triggerCollider.transform);
+                        });
+                    //Debug.LogError(name.gameObject.name);
+
+                });
+            gameObject.OnTriggerEnterAsObservable()
+                .Where(triggerCollider => triggerCollider.gameObject.CompareTag("Obstacle"))
+                .Subscribe(triggerCollider =>
+                {
+                    Debug.LogError("À¿Õˆ");
+                    //Debug.LogError(name.gameObject.name);
+
+                });
+            //gameObject.AddComponent<ObservableUpdateTrigger>()
+            //    .UpdateAsObservable()
+            //    .SampleFrame(100)
+            //    .Subscribe(name =>
+            //    {
+            //        Debug.LogError(name);
+            //    });
         }
         // Update is called once per frame
         void Update()
@@ -59,6 +94,7 @@ namespace QFramework.MFO
                             transform.position.z - arg0.x)
             );
         }
-       #endregion
+        #endregion
+
     }
 }

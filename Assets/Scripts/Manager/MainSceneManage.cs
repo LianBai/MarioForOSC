@@ -9,8 +9,11 @@ namespace QFramework.MFO
 {
     public class MainSceneManage : MonoBehaviour
     {
+        
         void Awake()
         {
+
+            //Debug.LogError(posData);
             //CacheDataManage.Instance.RescoveyCacheData();
             ResLoadManage.Instance.mResLoader
                 .LoadSync<GameObject>("mainsceneground")
@@ -23,3 +26,4 @@ namespace QFramework.MFO
 
     }
 }
+
