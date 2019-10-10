@@ -1152,6 +1152,9 @@
     <Reference Include="Excel">
       <HintPath>D:/Programe/MarioForOSC/Assets/Pluging/Excel.dll</HintPath>
     </Reference>
+    <Reference Include="org.in2bits.MyXls">
+      <HintPath>D:/Programe/MarioForOSC/Assets/Pluging/org.in2bits.MyXls.dll</HintPath>
+    </Reference>
     <Reference Include="QF.Log">
       <HintPath>D:/Programe/MarioForOSC/Assets/QFramework/Framework/0.PackageKit/Plugins/QF.Log.dll</HintPath>
     </Reference>
