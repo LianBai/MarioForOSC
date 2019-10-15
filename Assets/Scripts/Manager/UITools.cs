@@ -6,12 +6,12 @@ using UnityEngine.UI;
 
 namespace QFramework.MFO
 {
-    public class UITools : Singleton<UITools>
+    public interface IUITools
     {
-        private UITools()
-        {
-            
-        }
+        void ChanegeImage(Image image, string resName);
+    }
+    public class UITools: IUITools
+    {
         /// <summary>
         /// ÇÐ»»ImageµÄÍ¼Æ¬
         /// </summary>

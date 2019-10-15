@@ -41,7 +41,6 @@ namespace QFramework.MFO
                             
                             PickUpCoinManage.Instance.RecyCoin(triggerCollider.transform);
                         });
-                    //Debug.LogError(name.gameObject.name);
 
                 });
             gameObject.OnTriggerEnterAsObservable()
@@ -49,16 +48,8 @@ namespace QFramework.MFO
                 .Subscribe(triggerCollider =>
                 {
                     Debug.LogError("À¿Õˆ");
-                    //Debug.LogError(name.gameObject.name);
 
                 });
-            //gameObject.AddComponent<ObservableUpdateTrigger>()
-            //    .UpdateAsObservable()
-            //    .SampleFrame(100)
-            //    .Subscribe(name =>
-            //    {
-            //        Debug.LogError(name);
-            //    });
         }
         // Update is called once per frame
         void Update()

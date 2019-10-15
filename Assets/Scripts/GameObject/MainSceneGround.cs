@@ -9,13 +9,13 @@ namespace QFramework.MFO
 {
 	public partial class MainSceneGround : ViewController
 	{
-	    public GameObject mOldSelectGameObject;
+        public GameObject mOldSelectGameObject;
         public ReactiveProperty<PlayerData> mSelectPlayer = new ReactiveProperty<PlayerData>();
         private List<GameObject> hasPrefab = new List<GameObject>();
 		void Awake()
 		{
             // Code Here
-		    hasPrefab.Clear();
+            hasPrefab.Clear();
 		    this.selectplayer.DestroyAllChild();
             //初始化主场景的位置
             transform.localPosition = new Vector3(-2.5f, 7f, 28f);
@@ -25,21 +25,10 @@ namespace QFramework.MFO
                 .Subscribe(ChangePlayerShow)
                 .AddTo(this);
 		}
-
-        //void Start()
-        //{
-        //    MyEventSystem.GetEvent(MyEventType.Test).Subscribe(ReciveTest).AddTo(this);
-        //       MyEventSystem.Send(MyEventType.Test, "test01", "Test02");
-        //       MyEventSystem.Send(MyEventType.Test, "test03", "Test04");
-        //   }
-
-        //void ReciveTest(object[] param)
-        //{
-        //    Debug.LogError(param[0]);
-        //    Debug.LogError(param[1]);
-        //   }
-
-
+        /// <summary>
+        /// 切换角色触发的函数
+        /// </summary>
+        /// <param name="param"></param>
         private void ChangePlayerShow(object[] param)
 	    {
 	        mSelectPlayer.Value = (PlayerData) param[0];

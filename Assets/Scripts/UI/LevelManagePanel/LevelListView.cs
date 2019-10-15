@@ -4,6 +4,7 @@
 
 using System;
 using System.Collections.Generic;
+using QF;
 using UnityEngine;
 using UnityEngine.UI;
 using QFramework;
@@ -16,9 +17,14 @@ namespace QFramework.MFO
 	    private int maxLevel;
  	    //通过data数据和levelitem物体绑定
         public Dictionary<LevelData,LevelItem> mLevelItems = new Dictionary<LevelData, LevelItem>();
-		private void Awake()
+
+        //需要注入uitools
+        [Inject] public IUITools mUiTools { get; set; }
+        private void Awake()
 		{
-		}
+            //注入UITools
+            MarioAppManager.Container.Inject(this);
+        }
 
 		protected override void OnBeforeDestroy()
 		{
@@ -53,7 +59,7 @@ namespace QFramework.MFO
 	                self.OnInitData(mLevelData);
 	                if (mLevelData.level <= maxLevel)
 	                {
-	                    UITools.Instance.ChanegeImage(self.GetComponent<Image>(), "PlayerIcon_select");
+	                    mUiTools.ChanegeImage(self.GetComponent<Image>(), "PlayerIcon_select");
 	                }
 	            })
 	            .Show();

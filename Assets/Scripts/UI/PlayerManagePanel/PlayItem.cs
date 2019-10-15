@@ -5,6 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.Net.Http.Headers;
+using QF;
 using QF.Res;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,13 +20,17 @@ namespace QFramework.MFO
 	    private Image iconBg;
 	    public Toggle mToggle;
         public ReactiveProperty<PlayerData> selectPlayer = new ReactiveProperty<PlayerData>();
+        //需要注入uitools
+	    [Inject] public IUITools mUiTools { get; set; }
         private void Awake()
 		{
 		    mData = new PlayerData();
 		    iconBg = GetComponent<Image>();
 		    mToggle = GetComponent<Toggle>();
+            
+            
 
-		}
+        }
 
 		protected override void OnBeforeDestroy()
 		{
@@ -37,21 +42,24 @@ namespace QFramework.MFO
 	    public void OnInitData(PlayerData data)
 	    {
 	        mData = data;
-            UITools.Instance.ChanegeImage(icon,data.playericoname);
+            //注入UITools
+            MarioAppManager.Container.Inject(this);
+
+            mUiTools.ChanegeImage(icon,data.playericoname);
             //为item注册选中监听事件
 	        GetComponent<Toggle>().onValueChanged.AddListener(on =>
             {
                 if (on)
                 {
                     selectPlayer.Value = data;
-                    UITools.Instance.ChanegeImage(iconBg, "PlayerIcon_select");
+                    mUiTools.ChanegeImage(iconBg, "PlayerIcon_select");
                     iconBg.raycastTarget = false;
                     icon.raycastTarget = false;
                 }
                 else
                 {
                     selectPlayer.Value = null;
-                    UITools.Instance.ChanegeImage(iconBg,"PlayerIcon_bg");
+                    mUiTools.ChanegeImage(iconBg,"PlayerIcon_bg");
                     iconBg.raycastTarget = true;
                     icon.raycastTarget = true;
                 }
