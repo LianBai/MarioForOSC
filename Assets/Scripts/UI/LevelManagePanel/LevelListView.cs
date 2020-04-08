@@ -15,14 +15,14 @@ namespace QFramework.MFO
 	public partial class LevelListView : UIElement
 	{
 	    private int maxLevel;
- 	    //Í¨¹ıdataÊı¾İºÍlevelitemÎïÌå°ó¶¨
+ 	    //é€šè¿‡dataæ•°æ®å’Œlevelitemç‰©ä½“ç»‘å®š
         public Dictionary<LevelData,LevelItem> mLevelItems = new Dictionary<LevelData, LevelItem>();
 
-        //ĞèÒª×¢Èëuitools
+        //éœ€è¦æ³¨å…¥uitools
         [Inject] public IUITools mUiTools { get; set; }
         private void Awake()
 		{
-            //×¢ÈëUITools
+            //æ³¨å…¥UITools
             MarioAppManager.Container.Inject(this);
         }
 
@@ -31,7 +31,7 @@ namespace QFramework.MFO
 		}
 
         /// <summary>
-        /// ³õÊ¼»¯levelitemÏÔÊ¾ËùÓĞÊı¾İ
+        /// åˆå§‹åŒ–levelitemæ˜¾ç¤ºæ‰€æœ‰æ•°æ®
         /// </summary>
         /// <param name="mLevelItem"></param>
         /// <param name="mPlayerDataList"></param>
@@ -60,6 +60,10 @@ namespace QFramework.MFO
 	                if (mLevelData.level <= maxLevel)
 	                {
 	                    mUiTools.ChanegeImage(self.GetComponent<Image>(), "PlayerIcon_select");
+	                }
+	                else
+	                {
+		                mUiTools.ChanegeImage(self.GetComponent<Image>(),"PlayerIcon_lock");
 	                }
 	            })
 	            .Show();

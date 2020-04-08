@@ -40,8 +40,8 @@ namespace QFramework.MFO
         /// </summary>
         /// <param name="data"></param>
 	    public void OnInitData(PlayerData data)
-	    {
-	        mData = data;
+        {
+            mData = data;
             //×¢ÈëUITools
             MarioAppManager.Container.Inject(this);
 

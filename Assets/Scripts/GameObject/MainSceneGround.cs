@@ -17,26 +17,26 @@ namespace QFramework.MFO
             // Code Here
             hasPrefab.Clear();
 		    this.selectplayer.DestroyAllChild();
-            //³õÊ¼»¯Ö÷³¡¾°µÄÎ»ÖÃ
+            //åˆå§‹åŒ–ä¸»åœºæ™¯çš„ä½ç½®
             transform.localPosition = new Vector3(-2.5f, 7f, 28f);
-            //×¢²áµ±½ÇÉ«Ñ¡Ôñ·¢Éú¸Ä±äµÄÊ±ºòµÄÊÂ¼ş
+            //æ³¨å†Œå½“è§’è‰²é€‰æ‹©å‘ç”Ÿæ”¹å˜çš„æ—¶å€™çš„äº‹ä»¶
 		    //QEventSystem.RegisterEvent(MyEventType.SelectNewPlayer, ChangePlayerShow);
 		    MyEventSystem.GetEvent(MyEventType.SelectNewPlayer)
                 .Subscribe(ChangePlayerShow)
                 .AddTo(this);
 		}
         /// <summary>
-        /// ÇĞ»»½ÇÉ«´¥·¢µÄº¯Êı
+        /// åˆ‡æ¢è§’è‰²è§¦å‘çš„å‡½æ•°
         /// </summary>
         /// <param name="param"></param>
         private void ChangePlayerShow(object[] param)
 	    {
 	        mSelectPlayer.Value = (PlayerData) param[0];
-            if (mOldSelectGameObject != null)   //ÇĞ»»ÎïÌåÊ±£¬ÏÈ°ÑÉÏÒ»¸öÏÔÊ¾µÄÒş²Øµô
+            if (mOldSelectGameObject != null)   //åˆ‡æ¢ç‰©ä½“æ—¶ï¼Œå…ˆæŠŠä¸Šä¸€ä¸ªæ˜¾ç¤ºçš„éšè—æ‰
                 mOldSelectGameObject.SetActive(false);
             //Debug.LogError(mSelectPlayer.Value.playericoname);
             GameObject selectShowGo = hasPrefab
-                .Find(str => str.name == mSelectPlayer.Value.playerprefabname); //´Ó¼ÇÂ¼µÄÊı¾İÖĞ²éÕÒ¼´½«ÏÔÊ¾µÄÎïÌå
+                .Find(str => str.name == mSelectPlayer.Value.playerprefabname); //ä»è®°å½•çš„æ•°æ®ä¸­æŸ¥æ‰¾å³å°†æ˜¾ç¤ºçš„ç‰©ä½“
 	        if (selectShowGo == null)
 	        {
                 ResLoadManage.Instance.mResLoader
@@ -44,18 +44,18 @@ namespace QFramework.MFO
                     .Instantiate()
                     .ApplySelfTo(self =>
                     {
-                        self.transform.parent = this.selectplayer;  //ÉèÖÃ¸¸ÎïÌå
-                        self.transform.localPosition = Vector3.zero;    //³õÊ¼»¯Î»ÖÃ
-                        self.name = mSelectPlayer.Value.playerprefabname;   //¸ü¸ÄÎïÌåÃû×Ö£¬·ñÔò»á´øclone
-                        hasPrefab.Add(self);                        //¼ÇÂ¼ÒÑ¾­ÏÔÊ¾µÄÎïÌå
-                        mOldSelectGameObject = self;                //±ê¼ÇÕıÔÚÏÔÊ¾µÄÎïÌå£¬·½±ãÇĞ»»ÈËÎïÊ¹ÓÃ
-                        self.transform.localEulerAngles = Vector3.zero; //³õÊ¼»¯Ğı×ª
+                        self.transform.parent = this.selectplayer;  //è®¾ç½®çˆ¶ç‰©ä½“
+                        self.transform.localPosition = Vector3.zero;    //åˆå§‹åŒ–ä½ç½®
+                        self.name = mSelectPlayer.Value.playerprefabname;   //æ›´æ”¹ç‰©ä½“åå­—ï¼Œå¦åˆ™ä¼šå¸¦clone
+                        hasPrefab.Add(self);                        //è®°å½•å·²ç»æ˜¾ç¤ºçš„ç‰©ä½“
+                        mOldSelectGameObject = self;                //æ ‡è®°æ­£åœ¨æ˜¾ç¤ºçš„ç‰©ä½“ï¼Œæ–¹ä¾¿åˆ‡æ¢äººç‰©ä½¿ç”¨
+                        self.transform.localEulerAngles = Vector3.zero; //åˆå§‹åŒ–æ—‹è½¬
                     })
                     .Show();
             }
 	        else
 	        {
-	            mOldSelectGameObject = selectShowGo;    //±ê¼ÇÕıÔÚÏÔÊ¾µÄÎïÌå£¬·½±ãÇĞ»»ÈËÎïÊ¹ÓÃ
+	            mOldSelectGameObject = selectShowGo;    //æ ‡è®°æ­£åœ¨æ˜¾ç¤ºçš„ç‰©ä½“ï¼Œæ–¹ä¾¿åˆ‡æ¢äººç‰©ä½¿ç”¨
                 selectShowGo.SetActive(true);
 	        }
 	    }
