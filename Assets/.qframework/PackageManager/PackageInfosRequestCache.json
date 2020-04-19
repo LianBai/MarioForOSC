@@ -1461,6 +1461,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.2.0",
+            "content": "* 添加 Table 类\n* 使用 List + LINQ 实现 Table 的增删改查",
+            "author": "liangxie",
+            "date": "2020 年 04 月 18 日 16:42",
+            "VersionNumber": 200
+          },
+          {
             "version": "v0.1.1",
             "content": "MVP",
             "author": "liangxie",
@@ -1582,6 +1589,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.2.0",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXUtilsv0_2_0_61664a90_da78_4a2c_9ffa_d4dd9deb1179.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXUtils/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.2.0",
+            "content": "* 添加 Table 类\n* 使用 List + LINQ 实现 Table 的增删改查",
+            "author": "liangxie",
+            "date": "2020 年 04 月 18 日 16:42",
+            "VersionNumber": 200
+          },
+          "Id": "18fd30e7-2fda-4d52-9b34-9d7126eacd31",
+          "Name": "LXUtils",
+          "VersionNumber": 200,
+          "FileName": "LXUtils_v0.2.0.unitypackage"
+        },
         {
           "Version": "v0.1.1",
           "Type": 6,
@@ -1906,13 +1932,13 @@
           "FileName": "LXUtils_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.1.1",
-      "DownloadUrl": "http://file.liangxiegame.com/LXUtilsv0_1_1_6fc9c282_9007_49ab_befb_e2b1d21f542e.unitypackage",
+      "Version": "v0.2.0",
+      "DownloadUrl": "http://file.liangxiegame.com/LXUtilsv0_2_0_61664a90_da78_4a2c_9ffa_d4dd9deb1179.unitypackage",
       "InstallPath": "Assets/LXFramework/LXUtils/",
       "DocUrl": null,
       "Type": 6,
       "AccessRight": 0,
-      "VersionNumber": 101,
+      "VersionNumber": 200,
       "Installed": false
     },
     {
@@ -8243,6 +8269,257 @@
       "Installed": false
     },
     {
+      "Name": "LXResKit",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.0.10",
+            "content": "* 修复 LoadAsync 两次，得到的 Res 状态异常的问题。\n",
+            "author": "liangxie",
+            "date": "2020 年 04 月 17 日 23:14",
+            "VersionNumber": 10
+          },
+          {
+            "version": "v0.0.9",
+            "content": "* 修正 ResourcesRes.DoLoadAsync 的访问权限",
+            "author": "liangxie",
+            "date": "2020 年 04 月 16 日 20:54",
+            "VersionNumber": 9
+          },
+          {
+            "version": "v0.0.8",
+            "content": "添加 ResKit 的 UML 类图",
+            "author": "liangxie",
+            "date": "2020 年 04 月 16 日 20:38",
+            "VersionNumber": 8
+          },
+          {
+            "version": "v0.0.7",
+            "content": "* 修复重复异步加载造成的 Bug",
+            "author": "liangxie",
+            "date": "2020 年 04 月 12 日 19:28",
+            "VersionNumber": 7
+          },
+          {
+            "version": "v0.0.6",
+            "content": "* 支持 Resources.LoadAsync",
+            "author": "liangxie",
+            "date": "2020 年 04 月 12 日 17:08",
+            "VersionNumber": 6
+          },
+          {
+            "version": "v0.0.5",
+            "content": "* 资源管理机制 与 加载 API 剥离\r\n* 资源管理机制支持单元测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 11 日 21:32",
+            "VersionNumber": 5
+          },
+          {
+            "version": "v0.0.4",
+            "content": "* 解决脚本内重复加载、卸载的问题。\n* 解决脚本间重复加载、卸载的问题。\n\n* 引入引用计数\n* Res、ResMgr 实现",
+            "author": "liangxie",
+            "date": "2020 年 04 月 08 日 20:47",
+            "VersionNumber": 4
+          },
+          {
+            "version": "v0.0.2",
+            "content": "Hello World",
+            "author": "liangxie",
+            "date": "2020 年 04 月 04 日 15:49",
+            "VersionNumber": 2
+          },
+          {
+            "version": "v0.0.1",
+            "content": "准备",
+            "author": "liangxie",
+            "date": "2020 年 04 月 03 日 16:58",
+            "VersionNumber": 1
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.0.10",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_10_a6ee3d92_2e11_45b7_bffc_5ac7905f7d8b.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXResKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.10",
+            "content": "* 修复 LoadAsync 两次，得到的 Res 状态异常的问题。\n",
+            "author": "liangxie",
+            "date": "2020 年 04 月 17 日 23:14",
+            "VersionNumber": 10
+          },
+          "Id": "94dada56-3a7f-4a3e-9138-e05745e5351e",
+          "Name": "LXResKit",
+          "VersionNumber": 10,
+          "FileName": "LXResKit_v0.0.10.unitypackage"
+        },
+        {
+          "Version": "v0.0.9",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_9_e9cc2db5_9041_4cc8_acc1_7c0dbb697357.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXResKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.9",
+            "content": "* 修正 ResourcesRes.DoLoadAsync 的访问权限",
+            "author": "liangxie",
+            "date": "2020 年 04 月 16 日 20:54",
+            "VersionNumber": 9
+          },
+          "Id": "13f88821-9e49-4e0d-9542-d23d0bddbf6f",
+          "Name": "LXResKit",
+          "VersionNumber": 9,
+          "FileName": "LXResKit_v0.0.9.unitypackage"
+        },
+        {
+          "Version": "v0.0.8",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_8_54f1a4d9_6709_47e8_aefa_553e708a982d.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXResKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.8",
+            "content": "添加 ResKit 的 UML 类图",
+            "author": "liangxie",
+            "date": "2020 年 04 月 16 日 20:38",
+            "VersionNumber": 8
+          },
+          "Id": "25f633d3-1b21-4e13-bff9-9df96cfa2a3b",
+          "Name": "LXResKit",
+          "VersionNumber": 8,
+          "FileName": "LXResKit_v0.0.8.unitypackage"
+        },
+        {
+          "Version": "v0.0.7",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_7_c61eba6b_21e7_4859_847e_36ad5892d9a1.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXResKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.7",
+            "content": "* 修复重复异步加载造成的 Bug",
+            "author": "liangxie",
+            "date": "2020 年 04 月 12 日 19:28",
+            "VersionNumber": 7
+          },
+          "Id": "c0767796-28f4-4dd8-8c38-11bbebcbc121",
+          "Name": "LXResKit",
+          "VersionNumber": 7,
+          "FileName": "LXResKit_v0.0.7.unitypackage"
+        },
+        {
+          "Version": "v0.0.6",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_6_2e2595c7_6aa3_4e07_9864_8d405d3eb63b.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXResKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.6",
+            "content": "* 支持 Resources.LoadAsync",
+            "author": "liangxie",
+            "date": "2020 年 04 月 12 日 17:08",
+            "VersionNumber": 6
+          },
+          "Id": "163030c5-4a8c-41c6-aa54-b32402ef3ffb",
+          "Name": "LXResKit",
+          "VersionNumber": 6,
+          "FileName": "LXResKit_v0.0.6.unitypackage"
+        },
+        {
+          "Version": "v0.0.5",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_5_d22e142c_7221_4502_9208_121578229b5b.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXResKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.5",
+            "content": "* 资源管理机制 与 加载 API 剥离\r\n* 资源管理机制支持单元测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 11 日 21:32",
+            "VersionNumber": 5
+          },
+          "Id": "b210961e-caee-4afe-b864-98460ab9e83c",
+          "Name": "LXResKit",
+          "VersionNumber": 5,
+          "FileName": "LXResKit_v0.0.5.unitypackage"
+        },
+        {
+          "Version": "v0.0.4",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_4_2f341546_77e1_4d7e_8e82_98f8ae3af614.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXResKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "* 解决脚本内重复加载、卸载的问题。\n* 解决脚本间重复加载、卸载的问题。\n\n* 引入引用计数\n* Res、ResMgr 实现",
+            "author": "liangxie",
+            "date": "2020 年 04 月 08 日 20:47",
+            "VersionNumber": 4
+          },
+          "Id": "25c7600d-a37b-4fe8-ad2f-89e0a2c8cd99",
+          "Name": "LXResKit",
+          "VersionNumber": 4,
+          "FileName": "LXResKit_v0.0.4.unitypackage"
+        },
+        {
+          "Version": "v0.0.2",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_2_4bc66693_b54a_4ce0_83de_ac61fdc9feb5.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXResKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.2",
+            "content": "Hello World",
+            "author": "liangxie",
+            "date": "2020 年 04 月 04 日 15:49",
+            "VersionNumber": 2
+          },
+          "Id": "7d56277d-78f0-4a97-8c95-180ef411b768",
+          "Name": "LXResKit",
+          "VersionNumber": 2,
+          "FileName": "LXResKit_v0.0.2.unitypackage"
+        },
+        {
+          "Version": "v0.0.1",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_1_622530f4_65e3_460c_aacb_b5a2f665c1e2.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXResKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.1",
+            "content": "准备",
+            "author": "liangxie",
+            "date": "2020 年 04 月 03 日 16:58",
+            "VersionNumber": 1
+          },
+          "Id": "9efff13d-0ece-444a-b062-7207147f0ded",
+          "Name": "LXResKit",
+          "VersionNumber": 1,
+          "FileName": "LXResKit_v0.0.1.unitypackage"
+        }
+      ],
+      "Version": "v0.0.10",
+      "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_10_a6ee3d92_2e11_45b7_bffc_5ac7905f7d8b.unitypackage",
+      "InstallPath": "Assets/LXFramework/LXResKit/",
+      "DocUrl": null,
+      "Type": 6,
+      "AccessRight": 0,
+      "VersionNumber": 10,
+      "Installed": false
+    },
+    {
       "Name": "ScriptKitMoonSharp",
       "readme": {
         "items": [
@@ -9286,101 +9563,6 @@
       "InstallPath": "Assets/QFramework/Effect/UIImageOutlineAlphaShader/",
       "DocUrl": null,
       "Type": 1,
-      "AccessRight": 0,
-      "VersionNumber": 4,
-      "Installed": false
-    },
-    {
-      "Name": "LXResKit",
-      "readme": {
-        "items": [
-          {
-            "version": "v0.0.4",
-            "content": "* 解决脚本内重复加载、卸载的问题。\n* 解决脚本间重复加载、卸载的问题。\n\n* 引入引用计数\n* Res、ResMgr 实现",
-            "author": "liangxie",
-            "date": "2020 年 04 月 08 日 20:47",
-            "VersionNumber": 4
-          },
-          {
-            "version": "v0.0.2",
-            "content": "Hello World",
-            "author": "liangxie",
-            "date": "2020 年 04 月 04 日 15:49",
-            "VersionNumber": 2
-          },
-          {
-            "version": "v0.0.1",
-            "content": "准备",
-            "author": "liangxie",
-            "date": "2020 年 04 月 03 日 16:58",
-            "VersionNumber": 1
-          }
-        ]
-      },
-      "PackageVersions": [
-        {
-          "Version": "v0.0.4",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_4_2f341546_77e1_4d7e_8e82_98f8ae3af614.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXResKit/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.4",
-            "content": "* 解决脚本内重复加载、卸载的问题。\n* 解决脚本间重复加载、卸载的问题。\n\n* 引入引用计数\n* Res、ResMgr 实现",
-            "author": "liangxie",
-            "date": "2020 年 04 月 08 日 20:47",
-            "VersionNumber": 4
-          },
-          "Id": "25c7600d-a37b-4fe8-ad2f-89e0a2c8cd99",
-          "Name": "LXResKit",
-          "VersionNumber": 4,
-          "FileName": "LXResKit_v0.0.4.unitypackage"
-        },
-        {
-          "Version": "v0.0.2",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_2_4bc66693_b54a_4ce0_83de_ac61fdc9feb5.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXResKit/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.2",
-            "content": "Hello World",
-            "author": "liangxie",
-            "date": "2020 年 04 月 04 日 15:49",
-            "VersionNumber": 2
-          },
-          "Id": "7d56277d-78f0-4a97-8c95-180ef411b768",
-          "Name": "LXResKit",
-          "VersionNumber": 2,
-          "FileName": "LXResKit_v0.0.2.unitypackage"
-        },
-        {
-          "Version": "v0.0.1",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_1_622530f4_65e3_460c_aacb_b5a2f665c1e2.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXResKit/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.1",
-            "content": "准备",
-            "author": "liangxie",
-            "date": "2020 年 04 月 03 日 16:58",
-            "VersionNumber": 1
-          },
-          "Id": "9efff13d-0ece-444a-b062-7207147f0ded",
-          "Name": "LXResKit",
-          "VersionNumber": 1,
-          "FileName": "LXResKit_v0.0.1.unitypackage"
-        }
-      ],
-      "Version": "v0.0.4",
-      "DownloadUrl": "http://file.liangxiegame.com/LXResKitv0_0_4_2f341546_77e1_4d7e_8e82_98f8ae3af614.unitypackage",
-      "InstallPath": "Assets/LXFramework/LXResKit/",
-      "DocUrl": null,
-      "Type": 6,
       "AccessRight": 0,
       "VersionNumber": 4,
       "Installed": false
@@ -11032,6 +11214,484 @@
       "Installed": false
     },
     {
+      "Name": "LXTests",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.0.17",
+            "content": "* 添加 Table 的测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 18 日 16:43",
+            "VersionNumber": 17
+          },
+          {
+            "version": "v0.0.15",
+            "content": "添加 ResKit v0.0.10 的单元测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 17 日 23:14",
+            "VersionNumber": 15
+          },
+          {
+            "version": "v0.0.14",
+            "content": "* 添加 ResKit 的异步加载的测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 12 日 17:07",
+            "VersionNumber": 14
+          },
+          {
+            "version": "v0.0.13",
+            "content": "添加 ResKit v0.0.5 版本的测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 11 日 21:33",
+            "VersionNumber": 13
+          },
+          {
+            "version": "v0.0.12",
+            "content": "添加对 SimpleRC 的测试支持",
+            "author": "liangxie",
+            "date": "2020 年 02 月 12 日 00:40",
+            "VersionNumber": 12
+          },
+          {
+            "version": "v0.0.11",
+            "content": "添加对 FSM 的单元测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 12 日 00:20",
+            "VersionNumber": 11
+          },
+          {
+            "version": "v0.0.10",
+            "content": "添加对 SimpleObjectPool、SafeObjectPool 的单元测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 12 日 00:03",
+            "VersionNumber": 10
+          },
+          {
+            "version": "v0.0.9",
+            "content": "添加对 SimpleIOC 的单元测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 11 日 21:44",
+            "VersionNumber": 9
+          },
+          {
+            "version": "v0.0.8",
+            "content": "TypeEventSystem 覆盖全部单元测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 09 日 20:02",
+            "VersionNumber": 8
+          },
+          {
+            "version": "v0.0.7",
+            "content": "添加 对 TypeEventSystem.Register 的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 08 日 20:36",
+            "VersionNumber": 7
+          },
+          {
+            "version": "v0.0.6",
+            "content": "添加对 Extensions.Show、Hide 的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 06 日 18:16",
+            "VersionNumber": 6
+          },
+          {
+            "version": "v0.0.5",
+            "content": "添加对 MathUtil.Percent 的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 06 日 17:41",
+            "VersionNumber": 5
+          },
+          {
+            "version": "v0.0.4",
+            "content": "添加对  Extensions.LocalIdentity、Identity 的测试。",
+            "author": "liangxie",
+            "date": "2020 年 02 月 06 日 16:42",
+            "VersionNumber": 4
+          },
+          {
+            "version": "v0.0.3",
+            "content": "测试 localPosition 和 position 简化 API",
+            "author": "liangxie",
+            "date": "2020 年 02 月 02 日 22:18",
+            "VersionNumber": 3
+          },
+          {
+            "version": "v0.0.2",
+            "content": "增加 LXUtils 中 ResolutionCheck 的 IsPhone16_9、IsPad、IsRatio 相关的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 02 日 21:20",
+            "VersionNumber": 2
+          },
+          {
+            "version": "v0.0.1",
+            "content": "增加对 LXUtils 中 ResolutionCheck.IsLandscape 的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 01 日 17:44",
+            "VersionNumber": 1
+          },
+          {
+            "version": "v0.0.16`",
+            "content": "修正 ResKitV0_0_8Tests 的一个问题",
+            "author": "liangxie",
+            "date": "2020 年 04 月 17 日 23:41",
+            "VersionNumber": 0
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.0.17",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_17_9819cf96_45c6_4ba4_b573_61c2d41e2d70.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.17",
+            "content": "* 添加 Table 的测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 18 日 16:43",
+            "VersionNumber": 17
+          },
+          "Id": "f1d57d3f-427e-434d-86b7-a6be7e1ab1ed",
+          "Name": "LXTests",
+          "VersionNumber": 17,
+          "FileName": "LXTests_v0.0.17.unitypackage"
+        },
+        {
+          "Version": "v0.0.15",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_15_21549704_0dbd_40d5_8c90_553ca7178b80.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.15",
+            "content": "添加 ResKit v0.0.10 的单元测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 17 日 23:14",
+            "VersionNumber": 15
+          },
+          "Id": "ae37ea84-0931-4949-967a-42ed4617d192",
+          "Name": "LXTests",
+          "VersionNumber": 15,
+          "FileName": "LXTests_v0.0.15.unitypackage"
+        },
+        {
+          "Version": "v0.0.14",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_14_0bf5fad4_568d_496e_bf1d_7a5a30ba20ba.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.14",
+            "content": "* 添加 ResKit 的异步加载的测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 12 日 17:07",
+            "VersionNumber": 14
+          },
+          "Id": "a9c69689-a58c-44e8-b04c-f61f73d3774c",
+          "Name": "LXTests",
+          "VersionNumber": 14,
+          "FileName": "LXTests_v0.0.14.unitypackage"
+        },
+        {
+          "Version": "v0.0.13",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_13_73ef833c_2f68_4d28_8e6d_2b84e7a60a82.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.13",
+            "content": "添加 ResKit v0.0.5 版本的测试",
+            "author": "liangxie",
+            "date": "2020 年 04 月 11 日 21:33",
+            "VersionNumber": 13
+          },
+          "Id": "c534d7f8-775d-445e-8a7b-6a0292ec2db8",
+          "Name": "LXTests",
+          "VersionNumber": 13,
+          "FileName": "LXTests_v0.0.13.unitypackage"
+        },
+        {
+          "Version": "v0.0.12",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_12_a7bd5590_1451_414a_a33f_d7ecca678874.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.12",
+            "content": "添加对 SimpleRC 的测试支持",
+            "author": "liangxie",
+            "date": "2020 年 02 月 12 日 00:40",
+            "VersionNumber": 12
+          },
+          "Id": "4b85014c-4b5b-4948-b368-6e0727a3f1ad",
+          "Name": "LXTests",
+          "VersionNumber": 12,
+          "FileName": "LXTests_v0.0.12.unitypackage"
+        },
+        {
+          "Version": "v0.0.11",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_11_c868ab2e_a2d1_4ee3_95ec_ebef48d8b937.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.11",
+            "content": "添加对 FSM 的单元测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 12 日 00:20",
+            "VersionNumber": 11
+          },
+          "Id": "ebf71988-8344-40cb-bcd2-53f03b9134e6",
+          "Name": "LXTests",
+          "VersionNumber": 11,
+          "FileName": "LXTests_v0.0.11.unitypackage"
+        },
+        {
+          "Version": "v0.0.10",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_10_3b269395_0ea4_4ac1_bd48_e89f4c07cc98.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.10",
+            "content": "添加对 SimpleObjectPool、SafeObjectPool 的单元测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 12 日 00:03",
+            "VersionNumber": 10
+          },
+          "Id": "a202149e-a5d9-4879-bf45-3996fb294bc6",
+          "Name": "LXTests",
+          "VersionNumber": 10,
+          "FileName": "LXTests_v0.0.10.unitypackage"
+        },
+        {
+          "Version": "v0.0.9",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_9_cbb7d4c3_6d60_405a_941f_05b5d5865038.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.9",
+            "content": "添加对 SimpleIOC 的单元测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 11 日 21:44",
+            "VersionNumber": 9
+          },
+          "Id": "96d2a71a-f309-4080-9b44-2eae288b43d9",
+          "Name": "LXTests",
+          "VersionNumber": 9,
+          "FileName": "LXTests_v0.0.9.unitypackage"
+        },
+        {
+          "Version": "v0.0.8",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_8_b5a7eae3_244f_43a4_a696_99e4fcb1181c.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.8",
+            "content": "TypeEventSystem 覆盖全部单元测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 09 日 20:02",
+            "VersionNumber": 8
+          },
+          "Id": "91f406dc-8027-4472-b499-cc465449a866",
+          "Name": "LXTests",
+          "VersionNumber": 8,
+          "FileName": "LXTests_v0.0.8.unitypackage"
+        },
+        {
+          "Version": "v0.0.8",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_8_d9120a5d_0379_4dd3_bcc6_c638e0ac95dc.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.8",
+            "content": "TypeEventSystem 覆盖全部单元测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 09 日 03:11",
+            "VersionNumber": 8
+          },
+          "Id": "d3e5ccee-f6f3-44ae-978b-1586af0970d3",
+          "Name": "LXTests",
+          "VersionNumber": 8,
+          "FileName": "LXTests_v0.0.8.unitypackage"
+        },
+        {
+          "Version": "v0.0.7",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_7_470b9a97_a588_467e_b11c_6ea143514beb.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.7",
+            "content": "添加 对 TypeEventSystem.Register 的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 08 日 20:36",
+            "VersionNumber": 7
+          },
+          "Id": "8c310299-d4b9-41c0-973d-3041d8c48593",
+          "Name": "LXTests",
+          "VersionNumber": 7,
+          "FileName": "LXTests_v0.0.7.unitypackage"
+        },
+        {
+          "Version": "v0.0.6",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_6_f2650b86_06f7_49a6_bd02_8b82e1fa32b2.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.6",
+            "content": "添加对 Extensions.Show、Hide 的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 06 日 18:16",
+            "VersionNumber": 6
+          },
+          "Id": "cda26dd3-c804-4cce-b001-11feb0c2cdb7",
+          "Name": "LXTests",
+          "VersionNumber": 6,
+          "FileName": "LXTests_v0.0.6.unitypackage"
+        },
+        {
+          "Version": "v0.0.5",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_5_99dee634_13be_4737_801a_68ec2344c967.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.5",
+            "content": "添加对 MathUtil.Percent 的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 06 日 17:41",
+            "VersionNumber": 5
+          },
+          "Id": "54795cee-417c-4ef7-8d8d-8b637cb3d195",
+          "Name": "LXTests",
+          "VersionNumber": 5,
+          "FileName": "LXTests_v0.0.5.unitypackage"
+        },
+        {
+          "Version": "v0.0.4",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_4_a81dd6d0_fc8b_42bf_8c8f_08f99726cba5.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "添加对  Extensions.LocalIdentity、Identity 的测试。",
+            "author": "liangxie",
+            "date": "2020 年 02 月 06 日 16:42",
+            "VersionNumber": 4
+          },
+          "Id": "ed3eeccc-fda8-44cd-8798-47f2f225fbc9",
+          "Name": "LXTests",
+          "VersionNumber": 4,
+          "FileName": "LXTests_v0.0.4.unitypackage"
+        },
+        {
+          "Version": "v0.0.3",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_3_723f5b9d_e960_4198_982c_f8f53b695e2d.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "测试 localPosition 和 position 简化 API",
+            "author": "liangxie",
+            "date": "2020 年 02 月 02 日 22:18",
+            "VersionNumber": 3
+          },
+          "Id": "f72a1aa8-25d6-4bcb-8535-5c95e5894ad1",
+          "Name": "LXTests",
+          "VersionNumber": 3,
+          "FileName": "LXTests_v0.0.3.unitypackage"
+        },
+        {
+          "Version": "v0.0.2",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_2_1b43a3a0_7567_4a4e_974b_9a5bca11e32e.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.2",
+            "content": "增加 LXUtils 中 ResolutionCheck 的 IsPhone16_9、IsPad、IsRatio 相关的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 02 日 21:20",
+            "VersionNumber": 2
+          },
+          "Id": "8a093bda-1dfc-4f2b-951e-02f490c06865",
+          "Name": "LXTests",
+          "VersionNumber": 2,
+          "FileName": "LXTests_v0.0.2.unitypackage"
+        },
+        {
+          "Version": "v0.0.1",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_1_039b514a_67f7_4caa_bac4_34aa2df4e6b5.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.1",
+            "content": "增加对 LXUtils 中 ResolutionCheck.IsLandscape 的测试",
+            "author": "liangxie",
+            "date": "2020 年 02 月 01 日 17:44",
+            "VersionNumber": 1
+          },
+          "Id": "b626feff-4d5f-45bf-bc5d-8262ccf222fb",
+          "Name": "LXTests",
+          "VersionNumber": 1,
+          "FileName": "LXTests_v0.0.1.unitypackage"
+        },
+        {
+          "Version": "v0.0.16`",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_16`_32e92431_4327_4234_a6f8_af7a0c315cf4.unitypackage",
+          "InstallPath": "Assets/LXFramework/LXTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.16`",
+            "content": "修正 ResKitV0_0_8Tests 的一个问题",
+            "author": "liangxie",
+            "date": "2020 年 04 月 17 日 23:41",
+            "VersionNumber": 0
+          },
+          "Id": "3ae13cdd-915b-4e9b-9dc7-c9558bde556f",
+          "Name": "LXTests",
+          "VersionNumber": 0,
+          "FileName": "LXTests_v0.0.16`.unitypackage"
+        }
+      ],
+      "Version": "v0.0.17",
+      "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_17_9819cf96_45c6_4ba4_b573_61c2d41e2d70.unitypackage",
+      "InstallPath": "Assets/LXFramework/LXTests/",
+      "DocUrl": null,
+      "Type": 6,
+      "AccessRight": 0,
+      "VersionNumber": 17,
+      "Installed": false
+    },
+    {
       "Name": "UIImageGradientShader",
       "readme": {
         "items": [
@@ -11332,354 +11992,6 @@
       "Type": 3,
       "AccessRight": 0,
       "VersionNumber": 300,
-      "Installed": false
-    },
-    {
-      "Name": "LXTests",
-      "readme": {
-        "items": [
-          {
-            "version": "v0.0.12",
-            "content": "添加对 SimpleRC 的测试支持",
-            "author": "liangxie",
-            "date": "2020 年 02 月 12 日 00:40",
-            "VersionNumber": 12
-          },
-          {
-            "version": "v0.0.11",
-            "content": "添加对 FSM 的单元测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 12 日 00:20",
-            "VersionNumber": 11
-          },
-          {
-            "version": "v0.0.10",
-            "content": "添加对 SimpleObjectPool、SafeObjectPool 的单元测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 12 日 00:03",
-            "VersionNumber": 10
-          },
-          {
-            "version": "v0.0.9",
-            "content": "添加对 SimpleIOC 的单元测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 11 日 21:44",
-            "VersionNumber": 9
-          },
-          {
-            "version": "v0.0.8",
-            "content": "TypeEventSystem 覆盖全部单元测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 09 日 20:02",
-            "VersionNumber": 8
-          },
-          {
-            "version": "v0.0.7",
-            "content": "添加 对 TypeEventSystem.Register 的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 08 日 20:36",
-            "VersionNumber": 7
-          },
-          {
-            "version": "v0.0.6",
-            "content": "添加对 Extensions.Show、Hide 的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 06 日 18:16",
-            "VersionNumber": 6
-          },
-          {
-            "version": "v0.0.5",
-            "content": "添加对 MathUtil.Percent 的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 06 日 17:41",
-            "VersionNumber": 5
-          },
-          {
-            "version": "v0.0.4",
-            "content": "添加对  Extensions.LocalIdentity、Identity 的测试。",
-            "author": "liangxie",
-            "date": "2020 年 02 月 06 日 16:42",
-            "VersionNumber": 4
-          },
-          {
-            "version": "v0.0.3",
-            "content": "测试 localPosition 和 position 简化 API",
-            "author": "liangxie",
-            "date": "2020 年 02 月 02 日 22:18",
-            "VersionNumber": 3
-          },
-          {
-            "version": "v0.0.2",
-            "content": "增加 LXUtils 中 ResolutionCheck 的 IsPhone16_9、IsPad、IsRatio 相关的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 02 日 21:20",
-            "VersionNumber": 2
-          },
-          {
-            "version": "v0.0.1",
-            "content": "增加对 LXUtils 中 ResolutionCheck.IsLandscape 的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 01 日 17:44",
-            "VersionNumber": 1
-          }
-        ]
-      },
-      "PackageVersions": [
-        {
-          "Version": "v0.0.12",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_12_a7bd5590_1451_414a_a33f_d7ecca678874.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.12",
-            "content": "添加对 SimpleRC 的测试支持",
-            "author": "liangxie",
-            "date": "2020 年 02 月 12 日 00:40",
-            "VersionNumber": 12
-          },
-          "Id": "4b85014c-4b5b-4948-b368-6e0727a3f1ad",
-          "Name": "LXTests",
-          "VersionNumber": 12,
-          "FileName": "LXTests_v0.0.12.unitypackage"
-        },
-        {
-          "Version": "v0.0.11",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_11_c868ab2e_a2d1_4ee3_95ec_ebef48d8b937.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.11",
-            "content": "添加对 FSM 的单元测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 12 日 00:20",
-            "VersionNumber": 11
-          },
-          "Id": "ebf71988-8344-40cb-bcd2-53f03b9134e6",
-          "Name": "LXTests",
-          "VersionNumber": 11,
-          "FileName": "LXTests_v0.0.11.unitypackage"
-        },
-        {
-          "Version": "v0.0.10",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_10_3b269395_0ea4_4ac1_bd48_e89f4c07cc98.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.10",
-            "content": "添加对 SimpleObjectPool、SafeObjectPool 的单元测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 12 日 00:03",
-            "VersionNumber": 10
-          },
-          "Id": "a202149e-a5d9-4879-bf45-3996fb294bc6",
-          "Name": "LXTests",
-          "VersionNumber": 10,
-          "FileName": "LXTests_v0.0.10.unitypackage"
-        },
-        {
-          "Version": "v0.0.9",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_9_cbb7d4c3_6d60_405a_941f_05b5d5865038.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.9",
-            "content": "添加对 SimpleIOC 的单元测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 11 日 21:44",
-            "VersionNumber": 9
-          },
-          "Id": "96d2a71a-f309-4080-9b44-2eae288b43d9",
-          "Name": "LXTests",
-          "VersionNumber": 9,
-          "FileName": "LXTests_v0.0.9.unitypackage"
-        },
-        {
-          "Version": "v0.0.8",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_8_b5a7eae3_244f_43a4_a696_99e4fcb1181c.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.8",
-            "content": "TypeEventSystem 覆盖全部单元测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 09 日 20:02",
-            "VersionNumber": 8
-          },
-          "Id": "91f406dc-8027-4472-b499-cc465449a866",
-          "Name": "LXTests",
-          "VersionNumber": 8,
-          "FileName": "LXTests_v0.0.8.unitypackage"
-        },
-        {
-          "Version": "v0.0.8",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_8_d9120a5d_0379_4dd3_bcc6_c638e0ac95dc.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.8",
-            "content": "TypeEventSystem 覆盖全部单元测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 09 日 03:11",
-            "VersionNumber": 8
-          },
-          "Id": "d3e5ccee-f6f3-44ae-978b-1586af0970d3",
-          "Name": "LXTests",
-          "VersionNumber": 8,
-          "FileName": "LXTests_v0.0.8.unitypackage"
-        },
-        {
-          "Version": "v0.0.7",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_7_470b9a97_a588_467e_b11c_6ea143514beb.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.7",
-            "content": "添加 对 TypeEventSystem.Register 的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 08 日 20:36",
-            "VersionNumber": 7
-          },
-          "Id": "8c310299-d4b9-41c0-973d-3041d8c48593",
-          "Name": "LXTests",
-          "VersionNumber": 7,
-          "FileName": "LXTests_v0.0.7.unitypackage"
-        },
-        {
-          "Version": "v0.0.6",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_6_f2650b86_06f7_49a6_bd02_8b82e1fa32b2.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.6",
-            "content": "添加对 Extensions.Show、Hide 的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 06 日 18:16",
-            "VersionNumber": 6
-          },
-          "Id": "cda26dd3-c804-4cce-b001-11feb0c2cdb7",
-          "Name": "LXTests",
-          "VersionNumber": 6,
-          "FileName": "LXTests_v0.0.6.unitypackage"
-        },
-        {
-          "Version": "v0.0.5",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_5_99dee634_13be_4737_801a_68ec2344c967.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.5",
-            "content": "添加对 MathUtil.Percent 的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 06 日 17:41",
-            "VersionNumber": 5
-          },
-          "Id": "54795cee-417c-4ef7-8d8d-8b637cb3d195",
-          "Name": "LXTests",
-          "VersionNumber": 5,
-          "FileName": "LXTests_v0.0.5.unitypackage"
-        },
-        {
-          "Version": "v0.0.4",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_4_a81dd6d0_fc8b_42bf_8c8f_08f99726cba5.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.4",
-            "content": "添加对  Extensions.LocalIdentity、Identity 的测试。",
-            "author": "liangxie",
-            "date": "2020 年 02 月 06 日 16:42",
-            "VersionNumber": 4
-          },
-          "Id": "ed3eeccc-fda8-44cd-8798-47f2f225fbc9",
-          "Name": "LXTests",
-          "VersionNumber": 4,
-          "FileName": "LXTests_v0.0.4.unitypackage"
-        },
-        {
-          "Version": "v0.0.3",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_3_723f5b9d_e960_4198_982c_f8f53b695e2d.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.3",
-            "content": "测试 localPosition 和 position 简化 API",
-            "author": "liangxie",
-            "date": "2020 年 02 月 02 日 22:18",
-            "VersionNumber": 3
-          },
-          "Id": "f72a1aa8-25d6-4bcb-8535-5c95e5894ad1",
-          "Name": "LXTests",
-          "VersionNumber": 3,
-          "FileName": "LXTests_v0.0.3.unitypackage"
-        },
-        {
-          "Version": "v0.0.2",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_2_1b43a3a0_7567_4a4e_974b_9a5bca11e32e.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.2",
-            "content": "增加 LXUtils 中 ResolutionCheck 的 IsPhone16_9、IsPad、IsRatio 相关的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 02 日 21:20",
-            "VersionNumber": 2
-          },
-          "Id": "8a093bda-1dfc-4f2b-951e-02f490c06865",
-          "Name": "LXTests",
-          "VersionNumber": 2,
-          "FileName": "LXTests_v0.0.2.unitypackage"
-        },
-        {
-          "Version": "v0.0.1",
-          "Type": 6,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_1_039b514a_67f7_4caa_bac4_34aa2df4e6b5.unitypackage",
-          "InstallPath": "Assets/LXFramework/LXTests/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.1",
-            "content": "增加对 LXUtils 中 ResolutionCheck.IsLandscape 的测试",
-            "author": "liangxie",
-            "date": "2020 年 02 月 01 日 17:44",
-            "VersionNumber": 1
-          },
-          "Id": "b626feff-4d5f-45bf-bc5d-8262ccf222fb",
-          "Name": "LXTests",
-          "VersionNumber": 1,
-          "FileName": "LXTests_v0.0.1.unitypackage"
-        }
-      ],
-      "Version": "v0.0.12",
-      "DownloadUrl": "http://file.liangxiegame.com/LXTestsv0_0_12_a7bd5590_1451_414a_a33f_d7ecca678874.unitypackage",
-      "InstallPath": "Assets/LXFramework/LXTests/",
-      "DocUrl": null,
-      "Type": 6,
-      "AccessRight": 0,
-      "VersionNumber": 12,
       "Installed": false
     },
     {
@@ -13263,6 +13575,101 @@
       "Installed": false
     },
     {
+      "Name": "图形学",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.0.3",
+            "content": "1.Alpha测试\n2.Blend\n3.Loding\n4.OutLine\n5.Plane波动\n6.Rederqueue\n7.Standard\n8.模板测试\n9.河流\n10.深度测试\n11.点乘\n12.高斯模糊",
+            "author": "shiyuan",
+            "date": "2020 年 04 月 17 日 09:40",
+            "VersionNumber": 3
+          },
+          {
+            "version": "v0.0.2",
+            "content": "增加了描边",
+            "author": "shiyuan",
+            "date": "2020 年 03 月 22 日 22:25",
+            "VersionNumber": 2
+          },
+          {
+            "version": "v0.0.1",
+            "content": "图形学学习shader 油管连接:https://www.youtube.com/playlist?list=PLwDQt7s1o9J6xa44xhckRdwoAEilNeiKc\r\n 目前包括河流 ，波动效果，Loding旋转",
+            "author": "shiyuan",
+            "date": "2020 年 03 月 22 日 21:35",
+            "VersionNumber": 1
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.0.3",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/图形学v0_0_3_c9dd123e_2f8f_4dfa_84cd_82fa357e4fb2.unitypackage",
+          "InstallPath": "Assets/图形学/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.3",
+            "content": "1.Alpha测试\n2.Blend\n3.Loding\n4.OutLine\n5.Plane波动\n6.Rederqueue\n7.Standard\n8.模板测试\n9.河流\n10.深度测试\n11.点乘\n12.高斯模糊",
+            "author": "shiyuan",
+            "date": "2020 年 04 月 17 日 09:40",
+            "VersionNumber": 3
+          },
+          "Id": "95b4e066-d764-4e0f-af8b-4e9afcb65f35",
+          "Name": "图形学",
+          "VersionNumber": 3,
+          "FileName": "图形学_v0.0.3.unitypackage"
+        },
+        {
+          "Version": "v0.0.2",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/图形学v0_0_2_da5628fb_f938_4578_af3c_1862162a6ad9.unitypackage",
+          "InstallPath": "Assets/图形学/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.2",
+            "content": "增加了描边",
+            "author": "shiyuan",
+            "date": "2020 年 03 月 22 日 22:25",
+            "VersionNumber": 2
+          },
+          "Id": "9dba1dc3-6f42-47e0-b679-6d963e8ac7d3",
+          "Name": "图形学",
+          "VersionNumber": 2,
+          "FileName": "图形学_v0.0.2.unitypackage"
+        },
+        {
+          "Version": "v0.0.1",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/图形学v0_0_1_3711f609_97b7_42e0_8460_eead9be206b0.unitypackage",
+          "InstallPath": "Assets/图形学/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.1",
+            "content": "图形学学习shader 油管连接:https://www.youtube.com/playlist?list=PLwDQt7s1o9J6xa44xhckRdwoAEilNeiKc\r\n 目前包括河流 ，波动效果，Loding旋转",
+            "author": "shiyuan",
+            "date": "2020 年 03 月 22 日 21:35",
+            "VersionNumber": 1
+          },
+          "Id": "e1bf62e8-216d-4f40-b9ff-36f0ffab7f9b",
+          "Name": "图形学",
+          "VersionNumber": 1,
+          "FileName": "图形学_v0.0.1.unitypackage"
+        }
+      ],
+      "Version": "v0.0.3",
+      "DownloadUrl": "http://file.liangxiegame.com/图形学v0_0_3_c9dd123e_2f8f_4dfa_84cd_82fa357e4fb2.unitypackage",
+      "InstallPath": "Assets/图形学/",
+      "DocUrl": null,
+      "Type": 1,
+      "AccessRight": 0,
+      "VersionNumber": 3,
+      "Installed": false
+    },
+    {
       "Name": "TypeEventSystemExample",
       "readme": {
         "items": [
@@ -13432,75 +13839,6 @@
       "Type": 3,
       "AccessRight": 0,
       "VersionNumber": 1,
-      "Installed": false
-    },
-    {
-      "Name": "图形学",
-      "readme": {
-        "items": [
-          {
-            "version": "v0.0.2",
-            "content": "增加了描边",
-            "author": "shiyuan",
-            "date": "2020 年 03 月 22 日 22:25",
-            "VersionNumber": 2
-          },
-          {
-            "version": "v0.0.1",
-            "content": "图形学学习shader 油管连接:https://www.youtube.com/playlist?list=PLwDQt7s1o9J6xa44xhckRdwoAEilNeiKc\r\n 目前包括河流 ，波动效果，Loding旋转",
-            "author": "shiyuan",
-            "date": "2020 年 03 月 22 日 21:35",
-            "VersionNumber": 1
-          }
-        ]
-      },
-      "PackageVersions": [
-        {
-          "Version": "v0.0.2",
-          "Type": 1,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/图形学v0_0_2_da5628fb_f938_4578_af3c_1862162a6ad9.unitypackage",
-          "InstallPath": "Assets/图形学/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.2",
-            "content": "增加了描边",
-            "author": "shiyuan",
-            "date": "2020 年 03 月 22 日 22:25",
-            "VersionNumber": 2
-          },
-          "Id": "9dba1dc3-6f42-47e0-b679-6d963e8ac7d3",
-          "Name": "图形学",
-          "VersionNumber": 2,
-          "FileName": "图形学_v0.0.2.unitypackage"
-        },
-        {
-          "Version": "v0.0.1",
-          "Type": 1,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/图形学v0_0_1_3711f609_97b7_42e0_8460_eead9be206b0.unitypackage",
-          "InstallPath": "Assets/图形学/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.1",
-            "content": "图形学学习shader 油管连接:https://www.youtube.com/playlist?list=PLwDQt7s1o9J6xa44xhckRdwoAEilNeiKc\r\n 目前包括河流 ，波动效果，Loding旋转",
-            "author": "shiyuan",
-            "date": "2020 年 03 月 22 日 21:35",
-            "VersionNumber": 1
-          },
-          "Id": "e1bf62e8-216d-4f40-b9ff-36f0ffab7f9b",
-          "Name": "图形学",
-          "VersionNumber": 1,
-          "FileName": "图形学_v0.0.1.unitypackage"
-        }
-      ],
-      "Version": "v0.0.2",
-      "DownloadUrl": "http://file.liangxiegame.com/图形学v0_0_2_da5628fb_f938_4578_af3c_1862162a6ad9.unitypackage",
-      "InstallPath": "Assets/图形学/",
-      "DocUrl": null,
-      "Type": 1,
-      "AccessRight": 0,
-      "VersionNumber": 2,
       "Installed": false
     },
     {

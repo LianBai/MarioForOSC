@@ -15,6 +15,7 @@ namespace QFramework.MFO
 
         //临时测试使用
         private ETCJoystick myJoystick;
+        private ETCButton JumpButton;
 
         // Start is called before the first frame update
         void Start()
@@ -23,11 +24,16 @@ namespace QFramework.MFO
             //Debug.LogError(moveAnim);
             myJoystick = GameObject.Find("EasyTouchControlsCanvas/TestJoystick")
                                    .GetComponent<ETCJoystick>();
+            JumpButton = GameObject.Find("EasyTouchControlsCanvas/JumpButton")
+                                    .GetComponent<ETCButton>();
 
             //监听控制器值的改变
             myJoystick.onMove.AddListener(PlayerMove);
             myJoystick.onMoveEnd.AddListener(PlayerStop);
             myJoystick.onMoveStart.AddListener(PlayerStart);
+            JumpButton.onPressed.AddListener(PlayerJumpStart);
+            JumpButton.onUp.AddListener(PlayerJumpStop);
+
 
             gameObject.OnTriggerEnterAsObservable()
                 .Where(triggerCollider => triggerCollider.gameObject.CompareTag("PickCoin"))
@@ -71,6 +77,20 @@ namespace QFramework.MFO
         private void PlayerStop()
         {
             moveAnim.SetBool("Run", false);
+        }
+        /// <summary>
+        /// 角色开始运动
+        /// </summary>
+        private void PlayerJumpStart()
+        {
+            moveAnim.SetBool("Jump", true);
+        }
+        /// <summary>
+        /// 角色停止移动
+        /// </summary>
+        private void PlayerJumpStop()
+        {
+            moveAnim.SetBool("Jump", false);
         }
         /// <summary>
         /// 角色移动
