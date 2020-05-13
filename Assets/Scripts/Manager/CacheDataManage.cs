@@ -22,8 +22,12 @@ namespace QFramework.MFO
     {
         public void RescoveyCacheData()
         {
-            PlayerPrefs.SetString(DataType.playerName.ToString(), "Player_2");
-            PlayerPrefs.SetInt(DataType.levelMax.ToString(), 1);
+            PlayerPrefs.DeleteAll();
+            if (!PlayerPrefs.HasKey(DataType.playerName.ToString()))
+            {
+                PlayerPrefs.SetString(DataType.playerName.ToString(), "Player_2");
+                PlayerPrefs.SetInt(DataType.levelMax.ToString(), 1);
+            }
         }
 
         public void SetIntData(DataType type,int data)

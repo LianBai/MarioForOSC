@@ -14,7 +14,7 @@ namespace QFramework.MFO
         {
 
             //Debug.LogError(posData);
-            //CacheDataManage.Instance.RescoveyCacheData();
+            CacheDataManage.Instance.RescoveyCacheData();
             ResLoadManage.Instance.mResLoader
                 .LoadSync<GameObject>("mainsceneground")
                 .Instantiate();
