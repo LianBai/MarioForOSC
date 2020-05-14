@@ -30,6 +30,7 @@ namespace QFramework.MFO
             //注册一些服务
             //注册UITools
             mContainer.RegisterInstance<IUITools>(new UITools());
+            AppScenceManage.Instance.InitData();
         }
 
     }

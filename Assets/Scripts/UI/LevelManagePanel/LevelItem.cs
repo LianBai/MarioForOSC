@@ -25,7 +25,7 @@ namespace QFramework.MFO
 		{
 		}
         /// <summary>
-        /// 初始化item的数据并初始化显示
+        /// ?????item???????????????
         /// </summary>
         /// <param name="mleveldata"></param> 
 	    public void OnInitData(LevelData mleveldata)
@@ -33,13 +33,13 @@ namespace QFramework.MFO
 	        mLevelData = mleveldata;
 	        LevelText.text = mleveldata.level.ToString();
             
-            //注册点击关卡按钮的事件
+            //????????????????
             GetComponent<Button>().onClick.AddListener(() =>
             {
-                //Debug.LogError("切换场景");
+                //Debug.LogError("?л?????");
                 UIMgr.CloseAllPanel();
                 CacheDataManage.Instance.SetIntData(DataType.playLevel,mleveldata.level);
-                SceneManager.LoadSceneAsync("Game");
+                MyEventSystem.Send(MyEventType.ChangeScence,ScenceType.Game);
             });
         }
 	}

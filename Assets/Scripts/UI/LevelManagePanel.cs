@@ -43,6 +43,13 @@ namespace QFramework.MFO
             // please add init code here
 
             Content.InitLevelItem(LevelItem,mData.mLevelData);
+            backBtn.onClick.AddListener(() =>
+            {
+#if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+#endif
+                Application.Quit();
+            });
 
             ViewToggle.onValueChanged.AddListener(on =>
             {

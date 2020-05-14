@@ -48,6 +48,7 @@ namespace QFramework.MFO
             // please add init code here
 
             Content.InitPlayerItem(PlayerItem,mData.mModel);
+            CoinNum.text = "½ð±Ò£º"+CacheDataManage.Instance.GetIntData(DataType.coinnum);
 
             ViewToggle.onValueChanged.AddListener(on =>
             {

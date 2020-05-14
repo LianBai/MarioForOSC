@@ -38,6 +38,9 @@ namespace QFramework.MFO
         [SerializeField()]
         public LevelItem LevelItem;
         
+        [SerializeField()]
+        public UnityEngine.UI.Button backBtn;
+        
         private LevelManagePanelData mPrivateData = null;
         
         public LevelManagePanelData mData
@@ -60,6 +63,7 @@ namespace QFramework.MFO
             ViewToggle = null;
             ToggleText = null;
             LevelItem = null;
+            backBtn = null;
             mData = null;
         }
     }

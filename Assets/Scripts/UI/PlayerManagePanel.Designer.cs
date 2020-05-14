@@ -38,6 +38,9 @@ namespace QFramework.MFO
         [SerializeField()]
         public UnityEngine.UI.Text ToggleText;
         
+        [SerializeField()]
+        public UnityEngine.UI.Text CoinNum;
+        
         private PlayerManagePanelData mPrivateData = null;
         
         public PlayerManagePanelData mData
@@ -60,6 +63,7 @@ namespace QFramework.MFO
             Content = null;
             ViewToggle = null;
             ToggleText = null;
+            CoinNum = null;
             mData = null;
         }
     }

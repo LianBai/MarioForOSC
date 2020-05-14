@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
 using UniRx;
 using UniRx.Triggers;
-using UnityEditor.UI;
 using UnityEngine;
-using UnityEngine.UIElements;
+using Button = UnityEngine.UI.Button;
 
 namespace QFramework.MFO
 {
@@ -16,6 +13,7 @@ namespace QFramework.MFO
         //临时测试使用
         private ETCJoystick myJoystick;
         private ETCButton JumpButton;
+        private Button backBtn;
 
         // Start is called before the first frame update
         void Start()
@@ -26,13 +24,19 @@ namespace QFramework.MFO
                                    .GetComponent<ETCJoystick>();
             JumpButton = GameObject.Find("EasyTouchControlsCanvas/JumpButton")
                                     .GetComponent<ETCButton>();
-
+            backBtn = GameObject.Find("EasyTouchControlsCanvas/backBtn")
+                                    .GetComponent<Button>();
+            
             //监听控制器值的改变
             myJoystick.onMove.AddListener(PlayerMove);
             myJoystick.onMoveEnd.AddListener(PlayerStop);
             myJoystick.onMoveStart.AddListener(PlayerStart);
             JumpButton.onPressed.AddListener(PlayerJumpStart);
             JumpButton.onUp.AddListener(PlayerJumpStop);
+            backBtn.onClick.AddListener(() =>
+            {
+                MyEventSystem.Send(MyEventType.ChangeScence,ScenceType.Main);
+            });
 
 
             gameObject.OnTriggerEnterAsObservable()
@@ -50,11 +54,29 @@ namespace QFramework.MFO
 
                 });
             gameObject.OnTriggerEnterAsObservable()
-                .Where(triggerCollider => triggerCollider.gameObject.CompareTag("Obstacle"))
                 .Subscribe(triggerCollider =>
                 {
-                    Debug.LogError("死亡");
-
+                    if (triggerCollider.gameObject.CompareTag("Obstacle"))
+                    {
+                        //Debug.LogError("死亡");
+                        transform.position = Vector3.zero;
+                    }
+                    else if(triggerCollider.gameObject.CompareTag("GameEnd"))
+                    {
+                        //Debug.LogError("闯关成功");
+                        int level = CacheDataManage.Instance.GetIntData(DataType.playLevel);
+                        if (level == CacheDataManage.Instance.GetIntData(DataType.levelMax))
+                        {
+                            CacheDataManage.Instance.SetIntData(DataType.levelMax,level+1);
+                        }
+                        MyEventSystem.Send(MyEventType.ChangeScence,ScenceType.Main);
+                    }
+                    else if (triggerCollider.gameObject.CompareTag("PickCoin"))
+                    {
+                        int coinnum = CacheDataManage.Instance.GetIntData(DataType.coinnum);
+                        coinnum += 1;
+                        CacheDataManage.Instance.SetIntData(DataType.coinnum,coinnum);
+                    }
                 });
         }
         // Update is called once per frame
@@ -84,6 +106,7 @@ namespace QFramework.MFO
         private void PlayerJumpStart()
         {
             moveAnim.SetBool("Jump", true);
+            transform.DOLocalMoveY(0.8f, 0.8f);
         }
         /// <summary>
         /// 角色停止移动

@@ -7,8 +7,10 @@ namespace QFramework.MFO
     public enum MyEventType
     {
         Start = QMgrID.Game,
-        //切换一个新的角色
+        //选择角色
         SelectNewPlayer,
+        //返回大厅
+        ChangeScence,
         End
     }
 }

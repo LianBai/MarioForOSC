@@ -13,7 +13,9 @@ namespace QFramework.MFO
         //玩家通过的最高等级
         levelMax,
         //玩家正在玩的关卡
-        playLevel
+        playLevel,
+        //玩家金币数量
+        coinnum
     }
     /// <summary>
     /// 缓存的加载与设置
@@ -22,11 +24,13 @@ namespace QFramework.MFO
     {
         public void RescoveyCacheData()
         {
-            PlayerPrefs.DeleteAll();
+            //PlayerPrefs.DeleteAll();
             if (!PlayerPrefs.HasKey(DataType.playerName.ToString()))
             {
                 PlayerPrefs.SetString(DataType.playerName.ToString(), "Player_2");
                 PlayerPrefs.SetInt(DataType.levelMax.ToString(), 1);
+                PlayerPrefs.SetInt(DataType.playLevel.ToString(), 0);
+                PlayerPrefs.SetInt(DataType.coinnum.ToString(), 0);
             }
         }
 
