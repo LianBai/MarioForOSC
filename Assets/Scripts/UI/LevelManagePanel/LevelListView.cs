@@ -60,10 +60,12 @@ namespace QFramework.MFO
 	                if (mLevelData.level <= maxLevel)
 	                {
 	                    mUiTools.ChanegeImage(self.GetComponent<Image>(), "PlayerIcon_select");
+	                    self.GetComponent<Button>().enabled = true;
 	                }
 	                else
 	                {
 		                mUiTools.ChanegeImage(self.GetComponent<Image>(),"PlayerIcon_lock");
+		                self.GetComponent<Button>().enabled = false;
 	                }
 	            })
 	            .Show();

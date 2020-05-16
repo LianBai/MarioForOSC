@@ -36,7 +36,7 @@ namespace QFramework.MFO
             //????????????????
             GetComponent<Button>().onClick.AddListener(() =>
             {
-                //Debug.LogError("?§Ý?????");
+	            //Debug.LogError("?§Ý?????");
                 UIMgr.CloseAllPanel();
                 CacheDataManage.Instance.SetIntData(DataType.playLevel,mleveldata.level);
                 MyEventSystem.Send(MyEventType.ChangeScence,ScenceType.Game);

@@ -106,7 +106,7 @@ namespace QFramework.MFO
         private void PlayerJumpStart()
         {
             moveAnim.SetBool("Jump", true);
-            transform.DOLocalMoveY(0.8f, 0.8f);
+            transform.DOLocalMoveY(1.0f, 0.8f);
         }
         /// <summary>
         /// ½ÇÉ«Í£Ö¹ÒÆ¶¯

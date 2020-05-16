@@ -1279,6 +1279,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.9.9",
+            "content": "添加 Bindable Property",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 22:45",
+            "VersionNumber": 909
+          },
+          {
             "version": "v0.9.8",
             "content": "更新 IOC 模块",
             "author": "liangxie",
@@ -1484,6 +1491,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.9.9",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/0.PackageKitv0_9_9_08106b56_e47f_4375_a57e_930703d11034.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/0.PackageKit/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.9.9",
+            "content": "添加 Bindable Property",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 22:45",
+            "VersionNumber": 909
+          },
+          "Id": "e4a8fc29-45c2-4806-8638-9e5127ec8a23",
+          "Name": "0.PackageKit",
+          "VersionNumber": 909,
+          "FileName": "0.PackageKit_v0.9.9.unitypackage"
+        },
         {
           "Version": "v0.9.8",
           "Type": 0,
@@ -2055,13 +2081,13 @@
           "FileName": "0.PackageKit_v0.0.34.unitypackage"
         }
       ],
-      "Version": "v0.9.8",
-      "DownloadUrl": "http://file.liangxiegame.com/0.PackageKitv0_9_8_d7844e98_db63_4b12_a384_2ab17d419ce8.unitypackage",
+      "Version": "v0.9.9",
+      "DownloadUrl": "http://file.liangxiegame.com/0.PackageKitv0_9_9_08106b56_e47f_4375_a57e_930703d11034.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/0.PackageKit/",
       "DocUrl": null,
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 908,
+      "VersionNumber": 909,
       "Installed": true
     },
     {
@@ -3766,6 +3792,20 @@
       "readme": {
         "items": [
           {
+            "version": "v0.9.5",
+            "content": "更新 Audio 模块 与 PackageKit 模块",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 22:48",
+            "VersionNumber": 905
+          },
+          {
+            "version": "v0.9.4",
+            "content": "添加 v0.10.x 开发计划",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 18:46",
+            "VersionNumber": 904
+          },
+          {
             "version": "v0.9.3",
             "content": "更新 Core 和 PackageKit",
             "author": "liangxie",
@@ -4322,6 +4362,44 @@
       },
       "PackageVersions": [
         {
+          "Version": "v0.9.5",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/Frameworkv0_9_5_45e97465_4f1b_495f_a02e_d7b6f01e3302.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.9.5",
+            "content": "更新 Audio 模块 与 PackageKit 模块",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 22:48",
+            "VersionNumber": 905
+          },
+          "Id": "556e471e-303e-4787-bd94-191736623036",
+          "Name": "Framework",
+          "VersionNumber": 905,
+          "FileName": "Framework_v0.9.5.unitypackage"
+        },
+        {
+          "Version": "v0.9.4",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/Frameworkv0_9_4_2515337a_9dac_47f1_9323_1a2f000e10a3.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.9.4",
+            "content": "添加 v0.10.x 开发计划",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 18:46",
+            "VersionNumber": 904
+          },
+          "Id": "88840975-5d84-4004-9223-d7765eced866",
+          "Name": "Framework",
+          "VersionNumber": 904,
+          "FileName": "Framework_v0.9.4.unitypackage"
+        },
+        {
           "Version": "v0.9.3",
           "Type": 0,
           "AccessRight": 0,
@@ -4743,25 +4821,6 @@
           "Version": "v0.8.18",
           "Type": 0,
           "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/Frameworkv0_8_18_662de172_9664_4bda_a3e1_0d2e8ebb3e2a.unitypackage",
-          "InstallPath": "Assets/QFramework/Framework/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.8.18",
-            "content": "改进 PackageKit 的界面",
-            "author": "liangxie",
-            "date": "2020 年 01 月 06 日 21:55",
-            "VersionNumber": 818
-          },
-          "Id": "43b12b81-0efa-46c5-bf8b-18b4f3c95a07",
-          "Name": "Framework",
-          "VersionNumber": 818,
-          "FileName": "Framework_v0.8.18.unitypackage"
-        },
-        {
-          "Version": "v0.8.18",
-          "Type": 0,
-          "AccessRight": 0,
           "DownloadUrl": "http://file.liangxiegame.com/Frameworkv0_8_18_bd9f806b_82d0_405c_9d73_65c82f3d48ab.unitypackage",
           "InstallPath": "Assets/QFramework/Framework/",
           "DocUrl": null,
@@ -4773,6 +4832,25 @@
             "VersionNumber": 818
           },
           "Id": "f46d300e-98dc-469e-bf87-ebc548d341dc",
+          "Name": "Framework",
+          "VersionNumber": 818,
+          "FileName": "Framework_v0.8.18.unitypackage"
+        },
+        {
+          "Version": "v0.8.18",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/Frameworkv0_8_18_662de172_9664_4bda_a3e1_0d2e8ebb3e2a.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.8.18",
+            "content": "改进 PackageKit 的界面",
+            "author": "liangxie",
+            "date": "2020 年 01 月 06 日 21:55",
+            "VersionNumber": 818
+          },
+          "Id": "43b12b81-0efa-46c5-bf8b-18b4f3c95a07",
           "Name": "Framework",
           "VersionNumber": 818,
           "FileName": "Framework_v0.8.18.unitypackage"
@@ -5880,13 +5958,13 @@
           "FileName": "Framework_v0.1.5.unitypackage"
         }
       ],
-      "Version": "v0.9.3",
-      "DownloadUrl": "http://file.liangxiegame.com/Frameworkv0_9_3_22b70993_abe1_4c54_b270_227958698a48.unitypackage",
+      "Version": "v0.9.5",
+      "DownloadUrl": "http://file.liangxiegame.com/Frameworkv0_9_5_45e97465_4f1b_495f_a02e_d7b6f01e3302.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/",
       "DocUrl": null,
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 903,
+      "VersionNumber": 905,
       "Installed": true
     },
     {
@@ -6830,6 +6908,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.9",
+            "content": "修改目录",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 19:26",
+            "VersionNumber": 9
+          },
+          {
             "version": "v0.0.8",
             "content": "修复不能编译的问题",
             "author": "liangxie",
@@ -6888,6 +6973,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.9",
+          "Type": 6,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/GameplayKitVisualScriptingv0_0_9_da00a86a_a4dc_4ec4_947f_76e4b2ee693d.unitypackage",
+          "InstallPath": "Assets/QFramework/Scripting/GameplayKitVisualScripting/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.9",
+            "content": "修改目录",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 19:26",
+            "VersionNumber": 9
+          },
+          "Id": "5baa141b-2be7-4148-a682-e92a34092022",
+          "Name": "GameplayKitVisualScripting",
+          "VersionNumber": 9,
+          "FileName": "GameplayKitVisualScripting_v0.0.9.unitypackage"
+        },
         {
           "Version": "v0.0.8",
           "Type": 6,
@@ -7041,13 +7145,13 @@
           "FileName": "GameplayKitVisualScripting_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.8",
-      "DownloadUrl": "http://file.liangxiegame.com/GameplayKitVisualScriptingv0_0_8_becb5161_fbcf_4b9a_af44_bb5ba3b4232b.unitypackage",
-      "InstallPath": "Assets/QFramework/GameplayKitVisualScripting/",
+      "Version": "v0.0.9",
+      "DownloadUrl": "http://file.liangxiegame.com/GameplayKitVisualScriptingv0_0_9_da00a86a_a4dc_4ec4_947f_76e4b2ee693d.unitypackage",
+      "InstallPath": "Assets/QFramework/Scripting/GameplayKitVisualScripting/",
       "DocUrl": null,
       "Type": 6,
       "AccessRight": 0,
-      "VersionNumber": 8,
+      "VersionNumber": 9,
       "Installed": false
     },
     {
@@ -8275,6 +8379,20 @@
       "readme": {
         "items": [
           {
+            "version": "v0.7.9",
+            "content": "使用 BindableProperty 替换 需要存储的数据",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 22:47",
+            "VersionNumber": 709
+          },
+          {
+            "version": "v0.7.8",
+            "content": "PlayMusic 单元测试通过",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 20:48",
+            "VersionNumber": 708
+          },
+          {
             "version": "v0.7.7",
             "content": "修复 SoundOn 失效的问题",
             "author": "liangxie",
@@ -8312,6 +8430,44 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.7.9",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/4.Audiov0_7_9_1d1cb376_400a_4a9c_983c_b5bb4c34638b.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/4.Audio/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.7.9",
+            "content": "使用 BindableProperty 替换 需要存储的数据",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 22:47",
+            "VersionNumber": 709
+          },
+          "Id": "53919240-9fd7-4077-9865-ddb9e8923731",
+          "Name": "4.Audio",
+          "VersionNumber": 709,
+          "FileName": "4.Audio_v0.7.9.unitypackage"
+        },
+        {
+          "Version": "v0.7.8",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/4.Audiov0_7_8_84deb640_8cd6_4ee5_a905_b0a47aecebd6.unitypackage",
+          "InstallPath": "Assets/QFramework/Framework/4.Audio/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.7.8",
+            "content": "PlayMusic 单元测试通过",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 20:48",
+            "VersionNumber": 708
+          },
+          "Id": "821ee476-4366-4f90-9f93-db0f228e9517",
+          "Name": "4.Audio",
+          "VersionNumber": 708,
+          "FileName": "4.Audio_v0.7.8.unitypackage"
+        },
         {
           "Version": "v0.7.7",
           "Type": 0,
@@ -8408,13 +8564,13 @@
           "FileName": "4.Audio_v0.1.0.unitypackage"
         }
       ],
-      "Version": "v0.7.7",
-      "DownloadUrl": "http://file.liangxiegame.com/4.Audiov0_7_7_561d69ae_6924_42bd_9806_85208871c20d.unitypackage",
+      "Version": "v0.7.9",
+      "DownloadUrl": "http://file.liangxiegame.com/4.Audiov0_7_9_1d1cb376_400a_4a9c_983c_b5bb4c34638b.unitypackage",
       "InstallPath": "Assets/QFramework/Framework/4.Audio/",
       "DocUrl": null,
       "Type": 0,
       "AccessRight": 0,
-      "VersionNumber": 707,
+      "VersionNumber": 709,
       "Installed": false
     },
     {
@@ -8898,6 +9054,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.7",
+            "content": "更改位置",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 21:26",
+            "VersionNumber": 7
+          },
+          {
             "version": "v0.0.6",
             "content": "unity 2019 编译错误修复",
             "author": "liangxie",
@@ -8942,6 +9105,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.7",
+          "Type": 3,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/EGOUnityEditorv0_0_7_f7308e76_c46d_4c90_90f5_11e1d08df193.unitypackage",
+          "InstallPath": "Assets/QFramework/Tools/EGOUnityEditor/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.7",
+            "content": "更改位置",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 21:26",
+            "VersionNumber": 7
+          },
+          "Id": "652e76d1-8fb1-459a-812e-94a367e6411c",
+          "Name": "EGOUnityEditor",
+          "VersionNumber": 7,
+          "FileName": "EGOUnityEditor_v0.0.7.unitypackage"
+        },
         {
           "Version": "v0.0.6",
           "Type": 6,
@@ -9057,13 +9239,13 @@
           "FileName": "EGOUnityEditor_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.6",
-      "DownloadUrl": "http://file.liangxiegame.com/EGOUnityEditorv0_0_6_b0c2a00a_ad2e_4248_9b11_7f19ac2bc660.unitypackage",
-      "InstallPath": "Assets/QFramework/EditorApps/EGOUnityEditor/",
+      "Version": "v0.0.7",
+      "DownloadUrl": "http://file.liangxiegame.com/EGOUnityEditorv0_0_7_f7308e76_c46d_4c90_90f5_11e1d08df193.unitypackage",
+      "InstallPath": "Assets/QFramework/Tools/EGOUnityEditor/",
       "DocUrl": null,
-      "Type": 6,
+      "Type": 3,
       "AccessRight": 0,
-      "VersionNumber": 6,
+      "VersionNumber": 7,
       "Installed": false
     },
     {
@@ -10638,6 +10820,13 @@
       "readme": {
         "items": [
           {
+            "version": "v0.0.5",
+            "content": "更改位置",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 21:25",
+            "VersionNumber": 5
+          },
+          {
             "version": "v0.0.4",
             "content": "默认可以选择关闭",
             "author": "liangxie",
@@ -10668,6 +10857,25 @@
         ]
       },
       "PackageVersions": [
+        {
+          "Version": "v0.0.5",
+          "Type": 3,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/QConsolev0_0_5_5fea795a_b42a_4b49_b855_0ad5a60edc22.unitypackage",
+          "InstallPath": "Assets/QFramework/Tools/QConsole/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.5",
+            "content": "更改位置",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 21:25",
+            "VersionNumber": 5
+          },
+          "Id": "3cb18985-eb02-428d-a6bc-8c4e160fc22b",
+          "Name": "QConsole",
+          "VersionNumber": 5,
+          "FileName": "QConsole_v0.0.5.unitypackage"
+        },
         {
           "Version": "v0.0.4",
           "Type": 0,
@@ -10745,13 +10953,13 @@
           "FileName": "QConsole_v0.0.1.unitypackage"
         }
       ],
-      "Version": "v0.0.4",
-      "DownloadUrl": "http://file.liangxiegame.com/QConsolev0_0_4_37bee954_5768_4d81_854e_6228515c9ea9.unitypackage",
-      "InstallPath": "Assets/QFramework/QConsole/",
+      "Version": "v0.0.5",
+      "DownloadUrl": "http://file.liangxiegame.com/QConsolev0_0_5_5fea795a_b42a_4b49_b855_0ad5a60edc22.unitypackage",
+      "InstallPath": "Assets/QFramework/Tools/QConsole/",
       "DocUrl": null,
-      "Type": 0,
+      "Type": 3,
       "AccessRight": 0,
-      "VersionNumber": 4,
+      "VersionNumber": 5,
       "Installed": false
     },
     {
@@ -13613,6 +13821,75 @@
       "Installed": false
     },
     {
+      "Name": "UIImageRoundCornerShader",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.0.5",
+            "content": "更改目录",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 19:25",
+            "VersionNumber": 5
+          },
+          {
+            "version": "v0.0.4",
+            "content": "upgrade 2 qf v0.1.x",
+            "author": "liangxie",
+            "date": "2019 年 09 月 03 日 22:08",
+            "VersionNumber": 4
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.0.5",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/UIImageRoundCornerShaderv0_0_5_50ad2031_2b5a_4d7d_8f3f_5a7ccc6aa3ba.unitypackage",
+          "InstallPath": "Assets/QFramework/Shaders/UIImageRoundCornerShader/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.5",
+            "content": "更改目录",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 19:25",
+            "VersionNumber": 5
+          },
+          "Id": "70b7ff3a-3a36-49a6-b6e4-e2d723e8052c",
+          "Name": "UIImageRoundCornerShader",
+          "VersionNumber": 5,
+          "FileName": "UIImageRoundCornerShader_v0.0.5.unitypackage"
+        },
+        {
+          "Version": "v0.0.4",
+          "Type": 1,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/UIImageRoundCornerShaderv0_0_4_ee36c42a_2d45_4fe6_a02a_3b56adab86da.unitypackage",
+          "InstallPath": "Assets/QFramework/Effect/UIImageRoundCornerShader/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.4",
+            "content": "upgrade 2 qf v0.1.x",
+            "author": "liangxie",
+            "date": "2019 年 09 月 03 日 22:08",
+            "VersionNumber": 4
+          },
+          "Id": "be6485e4-03d5-4349-855b-e4042930f27f",
+          "Name": "UIImageRoundCornerShader",
+          "VersionNumber": 4,
+          "FileName": "UIImageRoundCornerShader_v0.0.4.unitypackage"
+        }
+      ],
+      "Version": "v0.0.5",
+      "DownloadUrl": "http://file.liangxiegame.com/UIImageRoundCornerShaderv0_0_5_50ad2031_2b5a_4d7d_8f3f_5a7ccc6aa3ba.unitypackage",
+      "InstallPath": "Assets/QFramework/Shaders/UIImageRoundCornerShader/",
+      "DocUrl": null,
+      "Type": 1,
+      "AccessRight": 0,
+      "VersionNumber": 5,
+      "Installed": false
+    },
+    {
       "Name": "IceInkOhterPlugins",
       "readme": {
         "items": [
@@ -13878,6 +14155,49 @@
       "Type": 1,
       "AccessRight": 0,
       "VersionNumber": 5,
+      "Installed": false
+    },
+    {
+      "Name": "4.AudioTests",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.0.1",
+            "content": "添加 PlayMusic 的测试",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 20:47",
+            "VersionNumber": 1
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.0.1",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/4.AudioTestsv0_0_1_f9ee6b70_c1dc_4079_8a24_39ec6e3c8c08.unitypackage",
+          "InstallPath": "Assets/QFramework/Tests/FrameworkTests/4.AudioTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.1",
+            "content": "添加 PlayMusic 的测试",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 20:47",
+            "VersionNumber": 1
+          },
+          "Id": "7c600b4d-41cc-4ee9-b6db-59249130b2f3",
+          "Name": "4.AudioTests",
+          "VersionNumber": 1,
+          "FileName": "4.AudioTests_v0.0.1.unitypackage"
+        }
+      ],
+      "Version": "v0.0.1",
+      "DownloadUrl": "http://file.liangxiegame.com/4.AudioTestsv0_0_1_f9ee6b70_c1dc_4079_8a24_39ec6e3c8c08.unitypackage",
+      "InstallPath": "Assets/QFramework/Tests/FrameworkTests/4.AudioTests/",
+      "DocUrl": null,
+      "Type": 0,
+      "AccessRight": 0,
+      "VersionNumber": 1,
       "Installed": false
     },
     {
@@ -14613,6 +14933,49 @@
       "Installed": false
     },
     {
+      "Name": "FrameworkTests",
+      "readme": {
+        "items": [
+          {
+            "version": "v0.0.1",
+            "content": "添加 4.AudioTests 测试",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 20:48",
+            "VersionNumber": 1
+          }
+        ]
+      },
+      "PackageVersions": [
+        {
+          "Version": "v0.0.1",
+          "Type": 0,
+          "AccessRight": 0,
+          "DownloadUrl": "http://file.liangxiegame.com/FrameworkTestsv0_0_1_f94578bb_05a4_4b13_a09d_9c3c1df40b9c.unitypackage",
+          "InstallPath": "Assets/QFramework/Tests/FrameworkTests/",
+          "DocUrl": null,
+          "Readme": {
+            "version": "v0.0.1",
+            "content": "添加 4.AudioTests 测试",
+            "author": "liangxie",
+            "date": "2020 年 05 月 15 日 20:48",
+            "VersionNumber": 1
+          },
+          "Id": "b51b958f-82dd-4e91-95a0-fb5c881af591",
+          "Name": "FrameworkTests",
+          "VersionNumber": 1,
+          "FileName": "FrameworkTests_v0.0.1.unitypackage"
+        }
+      ],
+      "Version": "v0.0.1",
+      "DownloadUrl": "http://file.liangxiegame.com/FrameworkTestsv0_0_1_f94578bb_05a4_4b13_a09d_9c3c1df40b9c.unitypackage",
+      "InstallPath": "Assets/QFramework/Tests/FrameworkTests/",
+      "DocUrl": null,
+      "Type": 0,
+      "AccessRight": 0,
+      "VersionNumber": 1,
+      "Installed": false
+    },
+    {
       "Name": "UIImageWaveCircleShader",
       "readme": {
         "items": [
@@ -14696,49 +15059,6 @@
       "Type": 0,
       "AccessRight": 0,
       "VersionNumber": 1,
-      "Installed": false
-    },
-    {
-      "Name": "UIImageRoundCornerShader",
-      "readme": {
-        "items": [
-          {
-            "version": "v0.0.4",
-            "content": "upgrade 2 qf v0.1.x",
-            "author": "liangxie",
-            "date": "2019 年 09 月 03 日 22:08",
-            "VersionNumber": 4
-          }
-        ]
-      },
-      "PackageVersions": [
-        {
-          "Version": "v0.0.4",
-          "Type": 1,
-          "AccessRight": 0,
-          "DownloadUrl": "http://file.liangxiegame.com/UIImageRoundCornerShaderv0_0_4_ee36c42a_2d45_4fe6_a02a_3b56adab86da.unitypackage",
-          "InstallPath": "Assets/QFramework/Effect/UIImageRoundCornerShader/",
-          "DocUrl": null,
-          "Readme": {
-            "version": "v0.0.4",
-            "content": "upgrade 2 qf v0.1.x",
-            "author": "liangxie",
-            "date": "2019 年 09 月 03 日 22:08",
-            "VersionNumber": 4
-          },
-          "Id": "be6485e4-03d5-4349-855b-e4042930f27f",
-          "Name": "UIImageRoundCornerShader",
-          "VersionNumber": 4,
-          "FileName": "UIImageRoundCornerShader_v0.0.4.unitypackage"
-        }
-      ],
-      "Version": "v0.0.4",
-      "DownloadUrl": "http://file.liangxiegame.com/UIImageRoundCornerShaderv0_0_4_ee36c42a_2d45_4fe6_a02a_3b56adab86da.unitypackage",
-      "InstallPath": "Assets/QFramework/Effect/UIImageRoundCornerShader/",
-      "DocUrl": null,
-      "Type": 1,
-      "AccessRight": 0,
-      "VersionNumber": 4,
       "Installed": false
     },
     {
